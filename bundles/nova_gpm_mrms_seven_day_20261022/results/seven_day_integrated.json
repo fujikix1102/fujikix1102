@@ -1,0 +1,142 @@
+{
+  "schema": "NOVA_GPM_MRMS_SEVEN_DAY_INTEGRATED_AUDIT_V1",
+  "source_sha256": {
+    "five_day": "231e405aaca513f950a19ba04b71546c1d529a5bca7bc2f2b6ca47af2282e6dd",
+    "20240107": "970add9529d3e0e156957913a59e5a7fb8d08fe9b76f52207234eaac0ed39225",
+    "20240201": "8e39d19347fc6bee1590cb3bcc8678ae0892418fe0918abf51dc4da85791ddcf"
+  },
+  "dates": [
+    "2024-01-07",
+    "2024-02-01",
+    "2025-01-11",
+    "2025-01-18",
+    "2025-01-20",
+    "2025-01-31",
+    "2025-02-06"
+  ],
+  "rows": 168,
+  "methods": {
+    "basin_mean": {
+      "bootstrap": {
+        "n": 168,
+        "mean": -0.09795735335115544,
+        "ci95": [
+          -0.22383753386327412,
+          0.024178483501520392
+        ]
+      },
+      "lodo": [
+        {
+          "excluded_date": "2024-01-07",
+          "mean_difference_mm": -0.04507999166627255
+        },
+        {
+          "excluded_date": "2024-02-01",
+          "mean_difference_mm": -0.11441837344958561
+        },
+        {
+          "excluded_date": "2025-01-11",
+          "mean_difference_mm": -0.10680894987883717
+        },
+        {
+          "excluded_date": "2025-01-18",
+          "mean_difference_mm": -0.12242111022413882
+        },
+        {
+          "excluded_date": "2025-01-20",
+          "mean_difference_mm": -0.0830017840815742
+        },
+        {
+          "excluded_date": "2025-01-31",
+          "mean_difference_mm": -0.12736493437456
+        },
+        {
+          "excluded_date": "2025-02-06",
+          "mean_difference_mm": -0.08660632978311972
+        }
+      ]
+    },
+    "common_cells": {
+      "bootstrap": {
+        "n": 168,
+        "mean": -0.09795735326059196,
+        "ci95": [
+          -0.2232167525437935,
+          0.026030313865317917
+        ]
+      },
+      "lodo": [
+        {
+          "excluded_date": "2024-01-07",
+          "mean_difference_mm": -0.04507999153041255
+        },
+        {
+          "excluded_date": "2024-02-01",
+          "mean_difference_mm": -0.11441837334386154
+        },
+        {
+          "excluded_date": "2025-01-11",
+          "mean_difference_mm": -0.10680894977596894
+        },
+        {
+          "excluded_date": "2025-01-18",
+          "mean_difference_mm": -0.12242111010496294
+        },
+        {
+          "excluded_date": "2025-01-20",
+          "mean_difference_mm": -0.08300178400946348
+        },
+        {
+          "excluded_date": "2025-01-31",
+          "mean_difference_mm": -0.1273649343160183
+        },
+        {
+          "excluded_date": "2025-02-06",
+          "mean_difference_mm": -0.08660632974345607
+        }
+      ]
+    },
+    "conservative_area_regrid": {
+      "bootstrap": {
+        "n": 168,
+        "mean": -0.09795742134582161,
+        "ci95": [
+          -0.22176479120864262,
+          0.02340746839893308
+        ]
+      },
+      "lodo": [
+        {
+          "excluded_date": "2024-01-07",
+          "mean_difference_mm": -0.04508036427732336
+        },
+        {
+          "excluded_date": "2024-02-01",
+          "mean_difference_mm": -0.11441845568448354
+        },
+        {
+          "excluded_date": "2025-01-11",
+          "mean_difference_mm": -0.10680905227550402
+        },
+        {
+          "excluded_date": "2025-01-18",
+          "mean_difference_mm": -0.12242104787191546
+        },
+        {
+          "excluded_date": "2025-01-20",
+          "mean_difference_mm": -0.08300185643188783
+        },
+        {
+          "excluded_date": "2025-01-31",
+          "mean_difference_mm": -0.12736493362442847
+        },
+        {
+          "excluded_date": "2025-02-06",
+          "mean_difference_mm": -0.08660623925520862
+        }
+      ]
+    }
+  },
+  "formal_pass": false,
+  "claim_boundary": "Seven-day independent diagnostic comparison only; no calibration coefficient or universal product correction."
+}
