@@ -1,0 +1,21 @@
+{
+  "schema": "nova.third_party_reproduction_bundle.bms.v1",
+  "status": "EXTERNAL_REPRODUCTION_PENDING",
+  "human_third_party_execution": "NOT_ESTABLISHED",
+  "formal_pass": false,
+  "scope": {
+    "instrument": "Kipp & Zonen CMP22 Vent",
+    "serial_number": "080017",
+    "field": "Global CMP22 (vent/cor) [W/m^2]",
+    "period": "2023-06-01 through 2023-06-30"
+  },
+  "daily_workbooks": 30,
+  "rows_per_day": 3911,
+  "local_manifest_sha256": "89044ac66d92808aab6f530da34c793872a2c19a884bc55f845ab15c43dccf7c",
+  "calibration_uncertainty": {
+    "upper_percent": 1.3,
+    "lower_percent": 1.4,
+    "traceability": "World Radiometric Reference"
+  },
+  "claim_boundary": "Calibration certificate uncertainty and workbook-derived X/Y field uncertainty remain separate. No formal validation claim."
+}
