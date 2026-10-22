@@ -1,0 +1,19 @@
+{
+  "schema": "NOVA_THIRD_PARTY_REPRODUCTION_BUNDLE_V1",
+  "generated_utc": "2026-10-22T04:58:46.069801+00:00",
+  "files": {
+    "runner/run_gpm_mrms_three_method_5day_20261022.py": "5a3c6a894b7f291fcc4f759f28d5711db08e9a68a6848bc84443806aef7d4e68",
+    "runner/run_independent_day_three_method.py": "2f93eacd02b85dbb8334d50ce77da49a4dd1595345a378fc1614dd28a94468e4",
+    "runner/integrate_seven_day_audit.py": "ac9a061181bec7cd421d73f667bb4b6cbfec6032ac41ecb7aac29aedd99a89c6",
+    "results/five_day_three_method_result.json": "231e405aaca513f950a19ba04b71546c1d529a5bca7bc2f2b6ca47af2282e6dd",
+    "results/seven_day_integrated.json": "717f27c081f5df1f00ef9922416558901b3b058215026680178655c5774f03d8",
+    "results/seven_day_conclusion_gate.json": "14d00e6a2a3da923e982ffb76360504ef45a90ec60d2260dea2d628fd63ed76d",
+    "results/seven_day_integrated.sha256": "7d6f677222ec3d127be34655721da1c56bfc8e81d7a6afe2cc36174f30498096",
+    "inputs/20240107_result.json": "970add9529d3e0e156957913a59e5a7fb8d08fe9b76f52207234eaac0ed39225",
+    "inputs/20240201_result.json": "8e39d19347fc6bee1590cb3bcc8678ae0892418fe0918abf51dc4da85791ddcf",
+    "environment.json": "35ef9cbdefda7699a97308358c883aea7f2d51b699437c577a5dc54e8ca936bd",
+    "README.md": "f2b37d7d71899686b5a8fc920dec0d8b1510f1b8be7f30e2fcecd8973f670f78"
+  },
+  "formal_pass": false,
+  "third_party_execution": "NOT_ESTABLISHED"
+}
