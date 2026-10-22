@@ -1,0 +1,564 @@
+{
+  "schema": "NOVA_GPM_MRMS_INDEPENDENT_DAY_THREE_METHOD_V1",
+  "date": "2024-02-01",
+  "mrms_inspection": [
+    {
+      "file": "MultiSensor_QPE_01H_Pass2_00.00_20240201-000000.grib2.gz",
+      "sha256": "3d4b5599fae579f326c7c2b1875ca4b695e012e7b01e9dc6e5772a3d2e33bda6",
+      "valid_time": "2024-02-01T00:00:00.000000000",
+      "shape": [
+        3500,
+        7000
+      ],
+      "inside_cells": 2256,
+      "valid_cells": 2256,
+      "negative_cells": 0,
+      "nonfinite_cells": 0
+    },
+    {
+      "file": "MultiSensor_QPE_01H_Pass2_00.00_20240201-010000.grib2.gz",
+      "sha256": "7de648b3aecb02f2055ee3e66fcd67250ee09d4b979f2e83637668fd1d8dc328",
+      "valid_time": "2024-02-01T01:00:00.000000000",
+      "shape": [
+        3500,
+        7000
+      ],
+      "inside_cells": 2256,
+      "valid_cells": 2256,
+      "negative_cells": 0,
+      "nonfinite_cells": 0
+    },
+    {
+      "file": "MultiSensor_QPE_01H_Pass2_00.00_20240201-020000.grib2.gz",
+      "sha256": "c8135c61ad5c6bbba6372f91285d7405eed7e18b4472438ef84c94c3f8ff8dc4",
+      "valid_time": "2024-02-01T02:00:00.000000000",
+      "shape": [
+        3500,
+        7000
+      ],
+      "inside_cells": 2256,
+      "valid_cells": 2256,
+      "negative_cells": 0,
+      "nonfinite_cells": 0
+    },
+    {
+      "file": "MultiSensor_QPE_01H_Pass2_00.00_20240201-030000.grib2.gz",
+      "sha256": "f6286adcc737a1ab6854e0541b9506e54fd39c8b185c046a8eeb99852acf83e9",
+      "valid_time": "2024-02-01T03:00:00.000000000",
+      "shape": [
+        3500,
+        7000
+      ],
+      "inside_cells": 2256,
+      "valid_cells": 2256,
+      "negative_cells": 0,
+      "nonfinite_cells": 0
+    },
+    {
+      "file": "MultiSensor_QPE_01H_Pass2_00.00_20240201-040000.grib2.gz",
+      "sha256": "6b661328f6161bbbd2124f87a7b248758eb4f122f7bb387e92404a0031ba711c",
+      "valid_time": "2024-02-01T04:00:00.000000000",
+      "shape": [
+        3500,
+        7000
+      ],
+      "inside_cells": 2256,
+      "valid_cells": 2256,
+      "negative_cells": 0,
+      "nonfinite_cells": 0
+    },
+    {
+      "file": "MultiSensor_QPE_01H_Pass2_00.00_20240201-050000.grib2.gz",
+      "sha256": "85b6945cafb1caed6f659c75c1b231226000f85d4a8c7d4c5ec19eb3d5b93c3d",
+      "valid_time": "2024-02-01T05:00:00.000000000",
+      "shape": [
+        3500,
+        7000
+      ],
+      "inside_cells": 2256,
+      "valid_cells": 2256,
+      "negative_cells": 0,
+      "nonfinite_cells": 0
+    },
+    {
+      "file": "MultiSensor_QPE_01H_Pass2_00.00_20240201-060000.grib2.gz",
+      "sha256": "b3230311414ac3b85121fbafe7c485ddbf98b3ad57b5d7f5a3e01acdc06c7df3",
+      "valid_time": "2024-02-01T06:00:00.000000000",
+      "shape": [
+        3500,
+        7000
+      ],
+      "inside_cells": 2256,
+      "valid_cells": 2256,
+      "negative_cells": 0,
+      "nonfinite_cells": 0
+    },
+    {
+      "file": "MultiSensor_QPE_01H_Pass2_00.00_20240201-070000.grib2.gz",
+      "sha256": "09fa2aa02cc9d050e5e26efc91ecf7ba5ebd06ff1c7991371878e649a91e0c59",
+      "valid_time": "2024-02-01T07:00:00.000000000",
+      "shape": [
+        3500,
+        7000
+      ],
+      "inside_cells": 2256,
+      "valid_cells": 2256,
+      "negative_cells": 0,
+      "nonfinite_cells": 0
+    },
+    {
+      "file": "MultiSensor_QPE_01H_Pass2_00.00_20240201-080000.grib2.gz",
+      "sha256": "88622f93abf31e46113ef8855262780ede7c9c6dfc5d8db870363564f5fbca43",
+      "valid_time": "2024-02-01T08:00:00.000000000",
+      "shape": [
+        3500,
+        7000
+      ],
+      "inside_cells": 2256,
+      "valid_cells": 2256,
+      "negative_cells": 0,
+      "nonfinite_cells": 0
+    },
+    {
+      "file": "MultiSensor_QPE_01H_Pass2_00.00_20240201-090000.grib2.gz",
+      "sha256": "e61ff224fc396600fcc4a9a600f1630b79b04ab64e2d5256e0fd427961a44a22",
+      "valid_time": "2024-02-01T09:00:00.000000000",
+      "shape": [
+        3500,
+        7000
+      ],
+      "inside_cells": 2256,
+      "valid_cells": 2256,
+      "negative_cells": 0,
+      "nonfinite_cells": 0
+    },
+    {
+      "file": "MultiSensor_QPE_01H_Pass2_00.00_20240201-100000.grib2.gz",
+      "sha256": "024397b2cce33f6e4de8db07ad1b4012af50bbeedb9a9153c3054f80898bbedb",
+      "valid_time": "2024-02-01T10:00:00.000000000",
+      "shape": [
+        3500,
+        7000
+      ],
+      "inside_cells": 2256,
+      "valid_cells": 2256,
+      "negative_cells": 0,
+      "nonfinite_cells": 0
+    },
+    {
+      "file": "MultiSensor_QPE_01H_Pass2_00.00_20240201-110000.grib2.gz",
+      "sha256": "e2d2cfe58ef66fda6a181f99c2b589ab263c5db9e11ec5db8bebb6462aac0d27",
+      "valid_time": "2024-02-01T11:00:00.000000000",
+      "shape": [
+        3500,
+        7000
+      ],
+      "inside_cells": 2256,
+      "valid_cells": 2256,
+      "negative_cells": 0,
+      "nonfinite_cells": 0
+    },
+    {
+      "file": "MultiSensor_QPE_01H_Pass2_00.00_20240201-120000.grib2.gz",
+      "sha256": "211380f0e39a38445777de426af57ccebd55b1964639b4fe30b286817f86d5ba",
+      "valid_time": "2024-02-01T12:00:00.000000000",
+      "shape": [
+        3500,
+        7000
+      ],
+      "inside_cells": 2256,
+      "valid_cells": 2256,
+      "negative_cells": 0,
+      "nonfinite_cells": 0
+    },
+    {
+      "file": "MultiSensor_QPE_01H_Pass2_00.00_20240201-130000.grib2.gz",
+      "sha256": "a25e1fef2ac1e192274e5ab496afaf6c3d9014251a36834e368bc639b4ea5549",
+      "valid_time": "2024-02-01T13:00:00.000000000",
+      "shape": [
+        3500,
+        7000
+      ],
+      "inside_cells": 2256,
+      "valid_cells": 2256,
+      "negative_cells": 0,
+      "nonfinite_cells": 0
+    },
+    {
+      "file": "MultiSensor_QPE_01H_Pass2_00.00_20240201-140000.grib2.gz",
+      "sha256": "6729ebdb6d6dcb65fd658bdb7989c387ba50ee316098e1377930a282984e086f",
+      "valid_time": "2024-02-01T14:00:00.000000000",
+      "shape": [
+        3500,
+        7000
+      ],
+      "inside_cells": 2256,
+      "valid_cells": 2256,
+      "negative_cells": 0,
+      "nonfinite_cells": 0
+    },
+    {
+      "file": "MultiSensor_QPE_01H_Pass2_00.00_20240201-150000.grib2.gz",
+      "sha256": "4fd4b997a9d147bf782473092596de0b0933e9977b8a66b692732a9f4501e89a",
+      "valid_time": "2024-02-01T15:00:00.000000000",
+      "shape": [
+        3500,
+        7000
+      ],
+      "inside_cells": 2256,
+      "valid_cells": 2256,
+      "negative_cells": 0,
+      "nonfinite_cells": 0
+    },
+    {
+      "file": "MultiSensor_QPE_01H_Pass2_00.00_20240201-160000.grib2.gz",
+      "sha256": "6c362030fb639a0569dd4f32f64f2c511a5d348fb82dfbed0e105efec6a9d45c",
+      "valid_time": "2024-02-01T16:00:00.000000000",
+      "shape": [
+        3500,
+        7000
+      ],
+      "inside_cells": 2256,
+      "valid_cells": 2256,
+      "negative_cells": 0,
+      "nonfinite_cells": 0
+    },
+    {
+      "file": "MultiSensor_QPE_01H_Pass2_00.00_20240201-170000.grib2.gz",
+      "sha256": "051fb354b8d2091c7cb6d38b39e34f9d8219dd35d57e3df8af834362b14dccac",
+      "valid_time": "2024-02-01T17:00:00.000000000",
+      "shape": [
+        3500,
+        7000
+      ],
+      "inside_cells": 2256,
+      "valid_cells": 2256,
+      "negative_cells": 0,
+      "nonfinite_cells": 0
+    },
+    {
+      "file": "MultiSensor_QPE_01H_Pass2_00.00_20240201-180000.grib2.gz",
+      "sha256": "ade375611ad6a24652ef556779812f66777a8a526f8f5eabeac6337109815b95",
+      "valid_time": "2024-02-01T18:00:00.000000000",
+      "shape": [
+        3500,
+        7000
+      ],
+      "inside_cells": 2256,
+      "valid_cells": 2256,
+      "negative_cells": 0,
+      "nonfinite_cells": 0
+    },
+    {
+      "file": "MultiSensor_QPE_01H_Pass2_00.00_20240201-190000.grib2.gz",
+      "sha256": "616286f1dc617accf10420bf907e554a3d167309c174be2ec6a04713b1c33115",
+      "valid_time": "2024-02-01T19:00:00.000000000",
+      "shape": [
+        3500,
+        7000
+      ],
+      "inside_cells": 2256,
+      "valid_cells": 2256,
+      "negative_cells": 0,
+      "nonfinite_cells": 0
+    },
+    {
+      "file": "MultiSensor_QPE_01H_Pass2_00.00_20240201-200000.grib2.gz",
+      "sha256": "972719616a593d72321cfd4b017541a7dc7104dcfe761321f7713c50326d9ad1",
+      "valid_time": "2024-02-01T20:00:00.000000000",
+      "shape": [
+        3500,
+        7000
+      ],
+      "inside_cells": 2256,
+      "valid_cells": 2256,
+      "negative_cells": 0,
+      "nonfinite_cells": 0
+    },
+    {
+      "file": "MultiSensor_QPE_01H_Pass2_00.00_20240201-210000.grib2.gz",
+      "sha256": "15261bcdec89ac5dc57c1b27c1fa85494cd1495e0d9ea6dd31babfc53df00606",
+      "valid_time": "2024-02-01T21:00:00.000000000",
+      "shape": [
+        3500,
+        7000
+      ],
+      "inside_cells": 2256,
+      "valid_cells": 2256,
+      "negative_cells": 0,
+      "nonfinite_cells": 0
+    },
+    {
+      "file": "MultiSensor_QPE_01H_Pass2_00.00_20240201-220000.grib2.gz",
+      "sha256": "e6c869b371607597118d743dc6e23890e2d5fce58529d5ecfc34b91d44331973",
+      "valid_time": "2024-02-01T22:00:00.000000000",
+      "shape": [
+        3500,
+        7000
+      ],
+      "inside_cells": 2256,
+      "valid_cells": 2256,
+      "negative_cells": 0,
+      "nonfinite_cells": 0
+    },
+    {
+      "file": "MultiSensor_QPE_01H_Pass2_00.00_20240201-230000.grib2.gz",
+      "sha256": "cfdd9b2b5c400a4e3b458027ee988b91bda70d297ac3ef37998aad93e995a8db",
+      "valid_time": "2024-02-01T23:00:00.000000000",
+      "shape": [
+        3500,
+        7000
+      ],
+      "inside_cells": 2256,
+      "valid_cells": 2256,
+      "negative_cells": 0,
+      "nonfinite_cells": 0
+    }
+  ],
+  "rows": [
+    {
+      "hour": 0,
+      "gpm_basin_mm": 0.0,
+      "mrms_basin_mm": 0.0,
+      "common_gpm_mm": 0.0,
+      "common_mrms_mm": 0.0,
+      "conservative_gpm_mm": 0.0,
+      "common_intersections": 60,
+      "support_area_deg2": 0.00214957562958182
+    },
+    {
+      "hour": 1,
+      "gpm_basin_mm": 0.0,
+      "mrms_basin_mm": 0.0,
+      "common_gpm_mm": 0.0,
+      "common_mrms_mm": 0.0,
+      "conservative_gpm_mm": 0.0,
+      "common_intersections": 60,
+      "support_area_deg2": 0.00214957562958182
+    },
+    {
+      "hour": 2,
+      "gpm_basin_mm": 0.0,
+      "mrms_basin_mm": 0.0,
+      "common_gpm_mm": 0.0,
+      "common_mrms_mm": 0.0,
+      "conservative_gpm_mm": 0.0,
+      "common_intersections": 60,
+      "support_area_deg2": 0.00214957562958182
+    },
+    {
+      "hour": 3,
+      "gpm_basin_mm": 0.0,
+      "mrms_basin_mm": 0.0,
+      "common_gpm_mm": 0.0,
+      "common_mrms_mm": 0.0,
+      "conservative_gpm_mm": 0.0,
+      "common_intersections": 60,
+      "support_area_deg2": 0.00214957562958182
+    },
+    {
+      "hour": 4,
+      "gpm_basin_mm": 0.0,
+      "mrms_basin_mm": 0.0,
+      "common_gpm_mm": 0.0,
+      "common_mrms_mm": 0.0,
+      "conservative_gpm_mm": 0.0,
+      "common_intersections": 60,
+      "support_area_deg2": 0.00214957562958182
+    },
+    {
+      "hour": 5,
+      "gpm_basin_mm": 0.0,
+      "mrms_basin_mm": 0.0,
+      "common_gpm_mm": 0.0,
+      "common_mrms_mm": 0.0,
+      "conservative_gpm_mm": 0.0,
+      "common_intersections": 60,
+      "support_area_deg2": 0.00214957562958182
+    },
+    {
+      "hour": 6,
+      "gpm_basin_mm": 0.0,
+      "mrms_basin_mm": 0.0,
+      "common_gpm_mm": 0.0,
+      "common_mrms_mm": 0.0,
+      "conservative_gpm_mm": 0.0,
+      "common_intersections": 60,
+      "support_area_deg2": 0.00214957562958182
+    },
+    {
+      "hour": 7,
+      "gpm_basin_mm": 0.0,
+      "mrms_basin_mm": 0.0,
+      "common_gpm_mm": 0.0,
+      "common_mrms_mm": 0.0,
+      "conservative_gpm_mm": 0.0,
+      "common_intersections": 60,
+      "support_area_deg2": 0.00214957562958182
+    },
+    {
+      "hour": 8,
+      "gpm_basin_mm": 0.0,
+      "mrms_basin_mm": 0.0,
+      "common_gpm_mm": 0.0,
+      "common_mrms_mm": 0.0,
+      "conservative_gpm_mm": 0.0,
+      "common_intersections": 60,
+      "support_area_deg2": 0.00214957562958182
+    },
+    {
+      "hour": 9,
+      "gpm_basin_mm": 0.0,
+      "mrms_basin_mm": 0.0,
+      "common_gpm_mm": 0.0,
+      "common_mrms_mm": 0.0,
+      "conservative_gpm_mm": 0.0,
+      "common_intersections": 60,
+      "support_area_deg2": 0.00214957562958182
+    },
+    {
+      "hour": 10,
+      "gpm_basin_mm": 0.0,
+      "mrms_basin_mm": 0.0,
+      "common_gpm_mm": 0.0,
+      "common_mrms_mm": 0.0,
+      "conservative_gpm_mm": 0.0,
+      "common_intersections": 60,
+      "support_area_deg2": 0.00214957562958182
+    },
+    {
+      "hour": 11,
+      "gpm_basin_mm": 0.0,
+      "mrms_basin_mm": 0.0,
+      "common_gpm_mm": 0.0,
+      "common_mrms_mm": 0.0,
+      "conservative_gpm_mm": 0.0,
+      "common_intersections": 60,
+      "support_area_deg2": 0.00214957562958182
+    },
+    {
+      "hour": 12,
+      "gpm_basin_mm": 0.0,
+      "mrms_basin_mm": 0.0,
+      "common_gpm_mm": 0.0,
+      "common_mrms_mm": 0.0,
+      "conservative_gpm_mm": 0.0,
+      "common_intersections": 60,
+      "support_area_deg2": 0.00214957562958182
+    },
+    {
+      "hour": 13,
+      "gpm_basin_mm": 0.0,
+      "mrms_basin_mm": 0.0,
+      "common_gpm_mm": 0.0,
+      "common_mrms_mm": 0.0,
+      "conservative_gpm_mm": 0.0,
+      "common_intersections": 60,
+      "support_area_deg2": 0.00214957562958182
+    },
+    {
+      "hour": 14,
+      "gpm_basin_mm": 0.0,
+      "mrms_basin_mm": 0.0,
+      "common_gpm_mm": 0.0,
+      "common_mrms_mm": 0.0,
+      "conservative_gpm_mm": 0.0,
+      "common_intersections": 60,
+      "support_area_deg2": 0.00214957562958182
+    },
+    {
+      "hour": 15,
+      "gpm_basin_mm": 0.0,
+      "mrms_basin_mm": 0.0,
+      "common_gpm_mm": 0.0,
+      "common_mrms_mm": 0.0,
+      "conservative_gpm_mm": 0.0,
+      "common_intersections": 60,
+      "support_area_deg2": 0.00214957562958182
+    },
+    {
+      "hour": 16,
+      "gpm_basin_mm": 0.0,
+      "mrms_basin_mm": 0.0,
+      "common_gpm_mm": 0.0,
+      "common_mrms_mm": 0.0,
+      "conservative_gpm_mm": 0.0,
+      "common_intersections": 60,
+      "support_area_deg2": 0.00214957562958182
+    },
+    {
+      "hour": 17,
+      "gpm_basin_mm": 0.019410413746215355,
+      "mrms_basin_mm": 0.0,
+      "common_gpm_mm": 0.01941041373660808,
+      "common_mrms_mm": 0.0,
+      "conservative_gpm_mm": 0.019410832467599625,
+      "common_intersections": 60,
+      "support_area_deg2": 0.00214957562958182
+    },
+    {
+      "hour": 18,
+      "gpm_basin_mm": 0.0,
+      "mrms_basin_mm": 0.0,
+      "common_gpm_mm": 0.0,
+      "common_mrms_mm": 0.0,
+      "conservative_gpm_mm": 0.0,
+      "common_intersections": 60,
+      "support_area_deg2": 0.00214957562958182
+    },
+    {
+      "hour": 19,
+      "gpm_basin_mm": 0.0,
+      "mrms_basin_mm": 0.0,
+      "common_gpm_mm": 0.0,
+      "common_mrms_mm": 0.0,
+      "conservative_gpm_mm": 0.0,
+      "common_intersections": 60,
+      "support_area_deg2": 0.00214957562958182
+    },
+    {
+      "hour": 20,
+      "gpm_basin_mm": 0.0,
+      "mrms_basin_mm": 0.0,
+      "common_gpm_mm": 0.0,
+      "common_mrms_mm": 0.0,
+      "conservative_gpm_mm": 0.0,
+      "common_intersections": 60,
+      "support_area_deg2": 0.00214957562958182
+    },
+    {
+      "hour": 21,
+      "gpm_basin_mm": 0.0,
+      "mrms_basin_mm": 0.0,
+      "common_gpm_mm": 0.0,
+      "common_mrms_mm": 0.0,
+      "conservative_gpm_mm": 0.0,
+      "common_intersections": 60,
+      "support_area_deg2": 0.00214957562958182
+    },
+    {
+      "hour": 22,
+      "gpm_basin_mm": 0.0,
+      "mrms_basin_mm": 0.0,
+      "common_gpm_mm": 0.0,
+      "common_mrms_mm": 0.0,
+      "conservative_gpm_mm": 0.0,
+      "common_intersections": 60,
+      "support_area_deg2": 0.00214957562958182
+    },
+    {
+      "hour": 23,
+      "gpm_basin_mm": 0.0,
+      "mrms_basin_mm": 0.0,
+      "common_gpm_mm": 0.0,
+      "common_mrms_mm": 0.0,
+      "conservative_gpm_mm": 0.0,
+      "common_intersections": 60,
+      "support_area_deg2": 0.00214957562958182
+    }
+  ],
+  "errors": [],
+  "complete": true,
+  "formal_pass": false,
+  "claim_boundary": "Independent-day diagnostic comparison only; no calibration or product correction claim."
+}
