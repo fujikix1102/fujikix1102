@@ -1,0 +1,12 @@
+{
+  "gpm_source": "Earthdata GPM IMERG HH V07",
+  "mrms_source": "Iowa State Mesonet archive of NCEP MRMS Pass2",
+  "gpm_expected": "2024-01-07 and 2024-02-01: 48 half-hour files each",
+  "mrms_expected": "2024-01-07 and 2024-02-01: 24 hourly files each",
+  "acceptance": [
+    "HDF5/GRIB2 readable",
+    "time keys complete",
+    "SHA-256 fixed"
+  ],
+  "formal_pass": false
+}
