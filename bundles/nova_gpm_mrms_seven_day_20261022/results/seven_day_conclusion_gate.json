@@ -1,0 +1,12 @@
+{
+  "schema": "NOVA_GPM_MRMS_SEVEN_DAY_CONCLUSION_GATE_V1",
+  "source_sha256": "717f27c081f5df1f00ef9922416558901b3b058215026680178655c5774f03d8",
+  "decision": "NO_PRODUCT_DIFFERENCE_CLAIM",
+  "reasons": [
+    "ALL_METHOD_95CI_INCLUDE_ZERO",
+    "THREE_METHOD_MEANS_AGREE_WITHIN_0.01_MM"
+  ],
+  "method_mean_spread_mm": 6.808522964862895e-08,
+  "formal_pass": false,
+  "claim_boundary": "Seven-day diagnostic comparison does not establish a statistically separated product difference or calibration correction."
+}
