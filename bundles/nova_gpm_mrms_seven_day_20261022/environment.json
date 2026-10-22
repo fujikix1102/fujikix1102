@@ -1,0 +1,12 @@
+{
+  "python": "3.x with h5py,numpy,xarray,cfgrib,shapely",
+  "platform": "macOS-14.5-arm64-arm-64bit",
+  "generated_utc": "2026-10-22T04:58:46.068875+00:00",
+  "formal_pass": false,
+  "raw_data_required": true,
+  "raw_data_sources": [
+    "Earthdata GPM IMERG HH V07",
+    "Iowa State Mesonet archive of NCEP MRMS Pass2"
+  ],
+  "third_party_execution": "NOT_ESTABLISHED"
+}
