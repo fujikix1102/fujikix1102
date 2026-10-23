@@ -1,0 +1,48 @@
+{
+  "schema": "nova.third_party_reproduction_bundle.bms.v1",
+  "status": "EXTERNAL_REPRODUCTION_PENDING",
+  "human_third_party_execution": "NOT_ESTABLISHED",
+  "formal_pass": false,
+  "scope": {
+    "instrument": "Kipp & Zonen CMP22 Vent",
+    "serial_number": "080017",
+    "field": "Global CMP22 (vent/cor) [W/m^2]",
+    "period": "2023-06-01 through 2023-06-30"
+  },
+  "reproduction_requirements": [
+    "Use the listed source files without modification",
+    "Recalculate daily Calculation_final X/Y values",
+    "Verify 30 daily workbooks and 3,911 rows per day",
+    "Report input, environment, runner, and result SHA-256",
+    "Keep calibration certificate uncertainty separate from workbook field uncertainty"
+  ],
+  "files": [
+    {
+      "filename": "bms_30day_uncertainty_integrated_20261022.json",
+      "sha256": "f73d138cb4556e15434bed43eb4aee70641947d4e341d739243f85f5aaa32863",
+      "included": true
+    },
+    {
+      "filename": "bms_30day_value_fixed_ledger_integration_20261022.json",
+      "sha256": "50b472ae9ca4580aa1dfd10c7b1b5e1af1629eb2a190743eba88c8f293cfbd6b",
+      "included": true
+    },
+    {
+      "filename": "bms_field_uncertainty_integrated_v2_20261022.json",
+      "sha256": "641a09701319e0ce1c190a51bc9a204ba56f6711d3397b89a17a664a89be7f36",
+      "included": true
+    },
+    {
+      "filename": "value_fixed_workbooks_manifest_20261022.json",
+      "sha256": "f0b292a2029784e366ad7bf921c0fb22a917d39d1ab49a33b986dec0ab2c0826",
+      "included": true
+    }
+  ],
+  "claim_boundary": "This bundle is ready for external execution request only. No human third-party execution has been established.",
+  "latest_integration": {
+    "days": 30,
+    "result_sha256": "f73d138cb4556e15434bed43eb4aee70641947d4e341d739243f85f5aaa32863",
+    "value_fixed_ledger_sha256": "50b472ae9ca4580aa1dfd10c7b1b5e1af1629eb2a190743eba88c8f293cfbd6b",
+    "field_uncertainty_sha256": "641a09701319e0ce1c190a51bc9a204ba56f6711d3397b89a17a664a89be7f36"
+  }
+}
