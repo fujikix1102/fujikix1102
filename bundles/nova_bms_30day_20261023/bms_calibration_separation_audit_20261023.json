@@ -1,0 +1,25 @@
+{
+  "schema": "NOVA_BMS_CALIBRATION_SEPARATION_AUDIT_V1",
+  "api_sha256": "d6f83bd67d6a5e7dfa4ac8e17a41976ef8b5eea0b24023826322f6fd4fbfec1d",
+  "calibration_ledger_sha256": "ec4654d425bb621f5b0e1d4db20043d94784afcbba9f663808b49d40180efc7e",
+  "cosine_sensitivity_sha256": "b4ee22ef6d8fd6b66d933c0d225f6e86ae4a2e549540521651233256c896ae89",
+  "calibration_evidence": {
+    "serial": "080017",
+    "event": "SRRL/2022-04 SW",
+    "expanded_uncertainty_percent": "+1.3/-1.4",
+    "traceability": "WRR"
+  },
+  "reference_scale_only_summary": {
+    "nonnegative_samples": 27410,
+    "lower_abs_W_m2_mean": 5.543624701830427,
+    "upper_abs_W_m2_mean": 5.147651508842539,
+    "lower_abs_W_m2_median": 4.031657,
+    "upper_abs_W_m2_median": 3.7436814999999997
+  },
+  "cosine_response_relative_range_percent": [
+    -1.1375559965976612,
+    0.7655023154711227
+  ],
+  "separation_rule": "Do not add calibration uncertainty to BMS–Open-Meteo difference or use it as a correction. Report it as an instrument uncertainty component; field representativeness and reference-model uncertainty remain separate.",
+  "formal_pass": false
+}
