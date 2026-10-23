@@ -9,7 +9,7 @@ This is the public, text-only evidence package for the SRRL BMS June 2023 compar
 
 ## Included
 The JSON files are provenance, integration, and value-fixed-workbook manifests.
-The 30 daily Excel workbooks are not included in this GitHub Contents package: the local workbook set is approximately 69 MB and must be transferred as a separate shareable archive or release asset before a third party can reproduce the workbook calculation itself. The manifest records the expected workbook names and hashes.
+The 30 daily Excel workbooks are distributed as a checksum-verified GitHub Release Asset: https://github.com/fujikix1102/fujikix1102/releases/tag/nova-bms-20261023-v2 . Use `nova_bms_30day_workbooks_20261023_v2.zip`; its archive SHA-256 is `029a66388e10cd29811cd74d469e5748e88bc365d9b03b2894cfaab202c477fc`. The manifest records the expected workbook names and hashes.
 
 ## Reproduction requirements
 1. Use the source workbooks without modifying the originals.
