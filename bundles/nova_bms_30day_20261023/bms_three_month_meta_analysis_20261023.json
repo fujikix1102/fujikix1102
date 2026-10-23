@@ -1,0 +1,49 @@
+{
+  "schema": "NOVA_BMS_THREE_MONTH_META_ANALYSIS_V1",
+  "months": [
+    {
+      "month": "202306",
+      "mean": -19.704243301729303,
+      "sd": 39.12726203116247,
+      "days": 30,
+      "se": 7.143628009294363
+    },
+    {
+      "month": "202307",
+      "mean": -9.783444969242831,
+      "sd": 35.76827788807072,
+      "days": 31,
+      "se": 6.424172353064557
+    },
+    {
+      "month": "202308",
+      "mean": -11.106278354032257,
+      "sd": 31.113341276101593,
+      "days": 31,
+      "se": 5.588121056956349
+    }
+  ],
+  "fixed_effect": {
+    "estimate": -12.904969601804575,
+    "ci95": [
+      -20.021667045340173,
+      -5.788272158268977
+    ]
+  },
+  "random_effect_exploratory": {
+    "estimate": -12.904969601804575,
+    "ci95": [
+      -20.021667045340173,
+      -5.788272158268977
+    ],
+    "tau2": 0,
+    "Q": 1.2456218082778998,
+    "df": 2
+  },
+  "interpretation": [
+    "Three independent calendar months show the same negative direction.",
+    "August interval includes zero; magnitude is not stable enough for a fixed correction.",
+    "Three months remain insufficient for formal product validation."
+  ],
+  "formal_pass": false
+}
