@@ -1,0 +1,40 @@
+{
+  "schema": "NOVA_BMS_CMP22_EXTERNAL_INPUT_MANIFEST_V1",
+  "scope": "SRRL BMS June 2023 Global CMP22 vent/cor versus Global CMP22-1 cor",
+  "acquisition_rule": "fresh_official_download_required",
+  "inputs": [
+    {
+      "id": "bms_june_2023_split_part_1",
+      "url": "https://midcdmz.nlr.gov/apps/data_api.pl?site=BMS&begin=20230601&end=20230615",
+      "expected_rows": 21600,
+      "timezone": "MST",
+      "sha256": "8ecc0133083226857bd4804c73ae809507b0ecf5fb9783f1b82cde199534225d"
+    },
+    {
+      "id": "bms_june_2023_split_part_2",
+      "url": "https://midcdmz.nlr.gov/apps/data_api.pl?site=BMS&begin=20230616&end=20230630",
+      "expected_rows": 21600,
+      "timezone": "MST",
+      "sha256": "bce5f10b6d4f71b8fcc3b8d7546b793abf7daed8c60ee37fa87a3f47f14c9c05"
+    },
+    {
+      "id": "calibration_serial_080017",
+      "url": "https://midcdmz.nlr.gov/apps/fmpxml.pl?type=calib;find=080017",
+      "sha256": "9345155e12ca3ca480de392f8105c68deb9772a89982a08345d5ceb9f64fe086"
+    },
+    {
+      "id": "calibration_serial_140043",
+      "url": "https://midcdmz.nlr.gov/apps/fmpxml.pl?type=calib;find=140043",
+      "sha256": "6d55c25b5c16d569cef3c3e8f4c723c480455993c815fa11ed7e6885655acdd8"
+    },
+    {
+      "id": "open_meteo_archive_may_july_2023",
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "parameters": "latitude=39.742&longitude=-105.18&start_date=2023-05-01&end_date=2023-07-31",
+      "sha256": "42e0c0f8c248cc40dcece0de25cb799b8c94f42c8dc4b6319de557a1317dd8e2"
+    }
+  ],
+  "formal_pass": false,
+  "external_verified": false,
+  "human_third_party_execution": "NOT_ESTABLISHED"
+}
