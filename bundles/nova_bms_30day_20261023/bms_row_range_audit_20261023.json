@@ -1,0 +1,227 @@
+{
+  "schema": "NOVA_BMS_ROW_RANGE_AUDIT_V1",
+  "workbook_count": 30,
+  "row_max_set": [
+    4913
+  ],
+  "active_rows_set": [
+    3911
+  ],
+  "template_tail_rows_set": [
+    1001
+  ],
+  "interpretation": "Data rows 2:3912 are the 3,911-row calculation population; rows 3913:4913 are a consistent 1,001-row legacy/template tail. Calculation_final X7:Y3917 corresponds to 3,911 rows.",
+  "formal_pass": false,
+  "workbooks": [
+    {
+      "file": "bms_2023-152_repaired_j20fixed2_values.xlsx",
+      "row_max": 4913,
+      "populated_rows": 4913,
+      "active_rows_2_3912": 3911,
+      "template_tail_rows_3913_4913": 1001
+    },
+    {
+      "file": "bms_2023-153_repaired_j20fixed2_values.xlsx",
+      "row_max": 4913,
+      "populated_rows": 4913,
+      "active_rows_2_3912": 3911,
+      "template_tail_rows_3913_4913": 1001
+    },
+    {
+      "file": "bms_2023-154_repaired_j20fixed2_values.xlsx",
+      "row_max": 4913,
+      "populated_rows": 4913,
+      "active_rows_2_3912": 3911,
+      "template_tail_rows_3913_4913": 1001
+    },
+    {
+      "file": "bms_2023-155_repaired_j20fixed2_values.xlsx",
+      "row_max": 4913,
+      "populated_rows": 4913,
+      "active_rows_2_3912": 3911,
+      "template_tail_rows_3913_4913": 1001
+    },
+    {
+      "file": "bms_2023-156_repaired_j20fixed2_values.xlsx",
+      "row_max": 4913,
+      "populated_rows": 4913,
+      "active_rows_2_3912": 3911,
+      "template_tail_rows_3913_4913": 1001
+    },
+    {
+      "file": "bms_2023-157_repaired_j20fixed2_values.xlsx",
+      "row_max": 4913,
+      "populated_rows": 4913,
+      "active_rows_2_3912": 3911,
+      "template_tail_rows_3913_4913": 1001
+    },
+    {
+      "file": "bms_2023-158_repaired_j20fixed2_values.xlsx",
+      "row_max": 4913,
+      "populated_rows": 4913,
+      "active_rows_2_3912": 3911,
+      "template_tail_rows_3913_4913": 1001
+    },
+    {
+      "file": "bms_2023-159_repaired_j20fixed2_values.xlsx",
+      "row_max": 4913,
+      "populated_rows": 4913,
+      "active_rows_2_3912": 3911,
+      "template_tail_rows_3913_4913": 1001
+    },
+    {
+      "file": "bms_2023-160_repaired_j20fixed2_values.xlsx",
+      "row_max": 4913,
+      "populated_rows": 4913,
+      "active_rows_2_3912": 3911,
+      "template_tail_rows_3913_4913": 1001
+    },
+    {
+      "file": "bms_2023-161_repaired_j20fixed2_values.xlsx",
+      "row_max": 4913,
+      "populated_rows": 4913,
+      "active_rows_2_3912": 3911,
+      "template_tail_rows_3913_4913": 1001
+    },
+    {
+      "file": "bms_2023-162_repaired_j20fixed2_values.xlsx",
+      "row_max": 4913,
+      "populated_rows": 4913,
+      "active_rows_2_3912": 3911,
+      "template_tail_rows_3913_4913": 1001
+    },
+    {
+      "file": "bms_2023-163_repaired_j20fixed2_values.xlsx",
+      "row_max": 4913,
+      "populated_rows": 4913,
+      "active_rows_2_3912": 3911,
+      "template_tail_rows_3913_4913": 1001
+    },
+    {
+      "file": "bms_2023-164_repaired_j20fixed2_values.xlsx",
+      "row_max": 4913,
+      "populated_rows": 4913,
+      "active_rows_2_3912": 3911,
+      "template_tail_rows_3913_4913": 1001
+    },
+    {
+      "file": "bms_2023-165_repaired_j20fixed2_values.xlsx",
+      "row_max": 4913,
+      "populated_rows": 4913,
+      "active_rows_2_3912": 3911,
+      "template_tail_rows_3913_4913": 1001
+    },
+    {
+      "file": "bms_2023-166_targeted_j20fixed_values.xlsx",
+      "row_max": 4913,
+      "populated_rows": 4913,
+      "active_rows_2_3912": 3911,
+      "template_tail_rows_3913_4913": 1001
+    },
+    {
+      "file": "bms_2023-167_repaired_j20fixed2_values.xlsx",
+      "row_max": 4913,
+      "populated_rows": 4913,
+      "active_rows_2_3912": 3911,
+      "template_tail_rows_3913_4913": 1001
+    },
+    {
+      "file": "bms_2023-168_repaired_j20fixed2_values.xlsx",
+      "row_max": 4913,
+      "populated_rows": 4913,
+      "active_rows_2_3912": 3911,
+      "template_tail_rows_3913_4913": 1001
+    },
+    {
+      "file": "bms_2023-169_repaired_j20fixed2_values.xlsx",
+      "row_max": 4913,
+      "populated_rows": 4913,
+      "active_rows_2_3912": 3911,
+      "template_tail_rows_3913_4913": 1001
+    },
+    {
+      "file": "bms_2023-170_repaired_j20fixed2_values.xlsx",
+      "row_max": 4913,
+      "populated_rows": 4913,
+      "active_rows_2_3912": 3911,
+      "template_tail_rows_3913_4913": 1001
+    },
+    {
+      "file": "bms_2023-171_repaired_j20fixed2_values.xlsx",
+      "row_max": 4913,
+      "populated_rows": 4913,
+      "active_rows_2_3912": 3911,
+      "template_tail_rows_3913_4913": 1001
+    },
+    {
+      "file": "bms_2023-172_repaired_j20fixed2_values.xlsx",
+      "row_max": 4913,
+      "populated_rows": 4913,
+      "active_rows_2_3912": 3911,
+      "template_tail_rows_3913_4913": 1001
+    },
+    {
+      "file": "bms_2023-173_repaired_j20fixed2_values.xlsx",
+      "row_max": 4913,
+      "populated_rows": 4913,
+      "active_rows_2_3912": 3911,
+      "template_tail_rows_3913_4913": 1001
+    },
+    {
+      "file": "bms_2023-174_repaired_j20fixed2_values.xlsx",
+      "row_max": 4913,
+      "populated_rows": 4913,
+      "active_rows_2_3912": 3911,
+      "template_tail_rows_3913_4913": 1001
+    },
+    {
+      "file": "bms_2023-175_repaired_j20fixed2_values.xlsx",
+      "row_max": 4913,
+      "populated_rows": 4913,
+      "active_rows_2_3912": 3911,
+      "template_tail_rows_3913_4913": 1001
+    },
+    {
+      "file": "bms_2023-176_repaired_j20fixed2_values.xlsx",
+      "row_max": 4913,
+      "populated_rows": 4913,
+      "active_rows_2_3912": 3911,
+      "template_tail_rows_3913_4913": 1001
+    },
+    {
+      "file": "bms_2023-177_repaired_j20fixed2_values.xlsx",
+      "row_max": 4913,
+      "populated_rows": 4913,
+      "active_rows_2_3912": 3911,
+      "template_tail_rows_3913_4913": 1001
+    },
+    {
+      "file": "bms_2023-178_repaired_j20fixed2_values.xlsx",
+      "row_max": 4913,
+      "populated_rows": 4913,
+      "active_rows_2_3912": 3911,
+      "template_tail_rows_3913_4913": 1001
+    },
+    {
+      "file": "bms_2023-179_repaired_j20fixed2_values.xlsx",
+      "row_max": 4913,
+      "populated_rows": 4913,
+      "active_rows_2_3912": 3911,
+      "template_tail_rows_3913_4913": 1001
+    },
+    {
+      "file": "bms_2023-180_repaired_j20fixed2_values.xlsx",
+      "row_max": 4913,
+      "populated_rows": 4913,
+      "active_rows_2_3912": 3911,
+      "template_tail_rows_3913_4913": 1001
+    },
+    {
+      "file": "bms_2023-181_repaired_j20fixed2_values.xlsx",
+      "row_max": 4913,
+      "populated_rows": 4913,
+      "active_rows_2_3912": 3911,
+      "template_tail_rows_3913_4913": 1001
+    }
+  ]
+}
