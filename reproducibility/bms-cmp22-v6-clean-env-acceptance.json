@@ -1,0 +1,13 @@
+{
+  "test": "clean_environment_portability_acceptance",
+  "input_placement": "temporary independent directory",
+  "runner_invocation": "integrate_bms_blind_e2e_20261023.py --base-dir <independent-dir> --output <independent-dir>/portable_result.json",
+  "output_created": true,
+  "execution_complete": true,
+  "result_sha256": "881a9af0b42aaeeb8e0ccd42b69215e5a3bd39b97b5bca2be12c8f413b7226da",
+  "formal_pass": false,
+  "external_verified": false,
+  "human_third_party_execution": "NOT_ESTABLISHED",
+  "acceptance": "PASS_FOR_PATH_INDEPENDENCE_ONLY",
+  "limitation": "The fixture evidence was copied from the local dataset; this is not human third-party execution."
+}
