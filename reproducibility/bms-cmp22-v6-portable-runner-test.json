@@ -1,0 +1,13 @@
+{
+  "test": "portable_runner_local_reexecution",
+  "runner": "integrate_bms_blind_e2e_20261023.py",
+  "input_mode": "explicit_base_dir_argument",
+  "output_mode": "explicit_output_argument",
+  "syntax_check": "PASS",
+  "execution_complete": true,
+  "formal_pass": false,
+  "external_verified": false,
+  "human_third_party_execution": "NOT_ESTABLISHED",
+  "result_sha256": "881a9af0b42aaeeb8e0ccd42b69215e5a3bd39b97b5bca2be12c8f413b7226da",
+  "claim_boundary": "Local portability reexecution succeeded; no external or human third-party evidence is established."
+}
