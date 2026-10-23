@@ -1,0 +1,28 @@
+{
+  "schema": "NOVA_FRESH_BMS_AGREEMENT_RECOMPUTE_V1",
+  "input_files": [
+    {
+      "name": "bms_20230601_15.txt",
+      "sha256": "8ecc0133083226857bd4804c73ae809507b0ecf5fb9783f1b82cde199534225d"
+    },
+    {
+      "name": "bms_20230616_30.txt",
+      "sha256": "bce5f10b6d4f71b8fcc3b8d7546b793abf7daed8c60ee37fa87a3f47f14c9c05"
+    }
+  ],
+  "rows_total": 43200,
+  "invalid_rows": 0,
+  "negative_values_any_series": 15796,
+  "daytime_rule": "CR3000 Zen Angle < 60 degrees",
+  "daytime_pairs": 16658,
+  "metrics": {
+    "mean_difference_W_m2": 2.6798991249249604,
+    "MAE_W_m2": 3.3725710035418417,
+    "RMSE_W_m2": 4.772519027505044,
+    "pearson_r": 0.9999685376741441
+  },
+  "formal_pass": false,
+  "external_verified": false,
+  "human_third_party_execution": "NOT_ESTABLISHED",
+  "claim_boundary": "Fresh official BMS input was independently re-read and the daytime paired agreement was recomputed; this does not establish field uncertainty, external verification, or formal validation."
+}
