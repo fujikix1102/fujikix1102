@@ -1,0 +1,30 @@
+{
+  "schema": "NOVA_BMS_BLIND_E2E_INTEGRATED_V1",
+  "dataset": "SRRL BMS June 2023 Global CMP22 vent/cor serial 080017",
+  "evidence": {
+    "archive_structure": "PASS_FOR_ARCHIVE_AND_STRUCTURE_ONLY",
+    "independent_engine_save": true,
+    "workbook_count": 30,
+    "active_row_count": [
+      3911
+    ],
+    "template_tail_count": [
+      1001
+    ],
+    "xy_difference_total": 0,
+    "xy_error_total": 0,
+    "xy_formula_total": 0,
+    "row_range_sha256": "2f7e52d6d8096511a259c80dcb59add1658d3315ad04897b7e41b520bf7ef974",
+    "xy_comparison_sha256": "c4ccad3b8138287fc7aadff6d26a2c30690968457b6acb92e901f07ddc713e72",
+    "recalc_sha256": "750f5ada582e7b32434f5e851a35b5f9c38da92159da063c35d4dbe906466b8f"
+  },
+  "verdicts": {
+    "execution_complete": true,
+    "numerical_verified_for_xy_and_range": true,
+    "statistical_valid": false,
+    "external_verified": false,
+    "physical_calibrated": false
+  },
+  "formal_pass": false,
+  "claim_boundary": "Independent engine and structure/X-Y equivalence are verified; statistical, external, and physical-calibration gates remain unverified."
+}
