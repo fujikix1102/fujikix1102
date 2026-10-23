@@ -1,0 +1,46 @@
+{
+  "schema": "NOVA_BMS_VALIDATION_DOSSIER_V1",
+  "created_at": "2026-10-23",
+  "dataset": "SRRL BMS Global CMP22 vent/cor SN080017",
+  "periods": [
+    "2023-06",
+    "2023-07",
+    "2023-08"
+  ],
+  "primary_timezone": "MST=UTC-07:00",
+  "evidence_sha256": {
+    "claim_ledger": "4b77156e8b6286f125ad1db6e1dc3fcc956480ae67c1c08f2797215837ee55cc",
+    "june": "e574991ffe0a1dd22cc33c5c7dcecfd4bb54b5e5ece8f6e2c70cba303c2ce658",
+    "july": "b93765ec78d0052d3c918bfcceeec1572d28673fb4e82106c2360136ad0878c2",
+    "august": "6166d04bf08e49a94500b9e0dc99f1f126ecfc94ab121eaa9e1cfe3516196373",
+    "meta3": "ce04b8b384ab302b38f1a18891284965bc061e88fa9c03f78b7a5f556822681b",
+    "lomo": "d99d191511444a2c2473b5f264b8ba018298e6dab79667b9ab674ea390eb4ba5",
+    "spatial": "92f66897448a23484ae60998785ae4dc01e055776a27dafda0d44a28bb9b2164",
+    "calibration": "42e1ee438234405342ae0acc0a80cdf026d21d7be9dd34a0969decce1f5e2c27"
+  },
+  "findings": {
+    "official_data_integrity": "VERIFIED_FOR_SPECIFIED_CHECKS",
+    "timestamp_normalization": "VERIFIED_FOR_SPECIFIED_CHECKS",
+    "three_month_directional_reproducibility": "CONDITIONALLY_SUPPORTED",
+    "leave_one_month_out": "CONDITIONALLY_SUPPORTED",
+    "spatial_snap_sensitivity": "NO_CHANGE_DETECTED_FOR_SAME_RETURNED_GRID",
+    "calibration_provenance": "VERIFIED_FOR_SPECIFIED_CHECKS",
+    "field_representativeness": "UNRESOLVED",
+    "external_human_reproduction": "NOT_ESTABLISHED"
+  },
+  "claim_boundary": "A negative BMS-minus-Open-Meteo difference is reproducible across three calendar months under the specified alignment, but it is not a calibration correction, absolute product error, or formal validation result.",
+  "stop_reason": "Additional months without a pre-specified sampling plan would be exploratory expansion, not a stronger confirmatory test. The next evidence should be an independent human reproduction and a field representativeness uncertainty model.",
+  "gates": {
+    "execution_complete": true,
+    "numeric_verification": "CONDITIONAL",
+    "statistical_validity": "CONDITIONALLY_SUPPORTED_FOR_DESCRIPTIVE_COMPARISON",
+    "external_verification": false,
+    "physical_calibration": true,
+    "formal_pass": false
+  },
+  "next_required": [
+    "publish/update third-party reproduction bundle",
+    "receive human execution log and input/runner/result hashes",
+    "obtain or construct justified field representativeness uncertainty model before any combined uncertainty claim"
+  ]
+}
