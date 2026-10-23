@@ -1,0 +1,77 @@
+{
+  "schema": "nova.bms.field_uncertainty_integrated.v1",
+  "status": "FIELD_UNCERTAINTY_CALCULATED_SEPARATE",
+  "formal_pass": false,
+  "applicability": {
+    "status": "APPLICABLE_AS_FIELD_UNCERTAINTY_METHOD_CANDIDATE",
+    "source_sha256": "0f8a952dc36c7a9bb54fea5d1d4e6d949a71b9e2cf97e6872069fce14cf21607",
+    "instrument_option": "Global CM22 Vent [W/m^2]"
+  },
+  "instrument": {
+    "manufacturer": "Kipp & Zonen",
+    "model": "CMP22",
+    "serial_number": "080017",
+    "location": "East Table, 10c: Global – Kipp CMP22 (Vent)",
+    "field": "Global CMP22 (vent/cor) [W/m^2]"
+  },
+  "calibration_uncertainty": {
+    "value": "+1.3 / -1.4",
+    "traceability": "World Radiometric Reference (WRR)",
+    "status": "separate"
+  },
+  "calculation_expanded_uncertainty": {
+    "source": "/Users/fujikijunichi/DTI_Nova/output/pv_cmp22_2023_mapping_20261022/bms_daily_uncertainty_20261022/bms_30day_uncertainty_integrated_20261022.json",
+    "source_sha256": "f73d138cb4556e15434bed43eb4aee70641947d4e341d739243f85f5aaa32863",
+    "day_count": 30,
+    "complete_days": 30,
+    "aggregate": {
+      "x_p95_across_days": 34.286116342160014,
+      "y_p95_across_days": 0.03962510788808175
+    },
+    "meaning": "Workbook X/Y output; not calibration certificate uncertainty"
+  },
+  "comparison_rule": "Do not add certificate percentage directly to X/Y without a documented covariance and field-uncertainty model.",
+  "claim_boundary": "Numerical field-uncertainty outputs are connected and hashed; formal validation and independent third-party reproduction remain pending.",
+  "sensitivity_analysis": {
+    "path": "/Users/fujikijunichi/DTI_Nova/output/pv_cmp22_2023_mapping_20261022/bms_uncertainty_sensitivity_20261022.json",
+    "sha256": "04c8270cf02eb5c28021cc2f210bfcaad3617214e60c5b2394b85018ad2e4274",
+    "scenarios": {
+      "workbook_only": {
+        "n": 117330,
+        "mean": 12.063112812468441,
+        "median": 9.5011012881937,
+        "max": 51.1069909107703,
+        "p95": 31.8829427765405
+      },
+      "calibration_independent_reference": {
+        "n": 117330,
+        "mean": 12.971236284665096,
+        "median": 10.219671950935766,
+        "max": 54.98127812342269,
+        "p95": 34.29942734432802
+      },
+      "representativeness_sensitivity_1pct": {
+        "n": 117330,
+        "mean": 13.410793304408612,
+        "median": 10.567482151274836,
+        "max": 56.856338268438975,
+        "p95": 35.46895796951275
+      },
+      "representativeness_sensitivity_2pct": {
+        "n": 117330,
+        "mean": 14.650242831777405,
+        "median": 11.548230674688623,
+        "max": 62.14298007760135,
+        "p95": 38.766425800242885
+      },
+      "representativeness_sensitivity_5pct": {
+        "n": 117330,
+        "mean": 21.398059905220308,
+        "median": 16.887607900586996,
+        "max": 90.91478083532489,
+        "p95": 56.71293766420906
+      }
+    },
+    "status": "REFERENCE_ONLY_NOT_FORMALLY_COMBINED"
+  }
+}
