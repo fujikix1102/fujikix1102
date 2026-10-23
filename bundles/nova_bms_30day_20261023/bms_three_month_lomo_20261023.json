@@ -1,0 +1,58 @@
+{
+  "schema": "NOVA_BMS_THREE_MONTH_LOMO_V1",
+  "months": [
+    {
+      "month": "202306",
+      "mean_diff_W_m2": -19.704243301729303,
+      "sd": 39.12726203116247,
+      "days": 30,
+      "sign": "negative"
+    },
+    {
+      "month": "202307",
+      "mean_diff_W_m2": -9.783444969242831,
+      "sd": 35.76827788807072,
+      "days": 31,
+      "sign": "negative"
+    },
+    {
+      "month": "202308",
+      "mean_diff_W_m2": -11.106278354032257,
+      "sd": 31.113341276101593,
+      "days": 31,
+      "sign": "negative"
+    }
+  ],
+  "full": {
+    "estimate": -12.904969601804574,
+    "ci95": [
+      -20.021667045340173,
+      -5.788272158268976
+    ]
+  },
+  "leave_one_month_out": {
+    "202306": {
+      "estimate": -10.536486547893713,
+      "ci95": [
+        -18.800267213865894,
+        -2.2727058819215316
+      ]
+    },
+    "202307": {
+      "estimate": -14.3702501739657,
+      "ci95": [
+        -22.997060865996552,
+        -5.743439481934844
+      ]
+    },
+    "202308": {
+      "estimate": -14.219252019777802,
+      "ci95": [
+        -23.581667615562804,
+        -4.8568364239927995
+      ]
+    }
+  },
+  "formal_pass": false,
+  "interpretation": "All leave-one-month-out estimates remain negative; this is robustness evidence only, not external validation."
+}
