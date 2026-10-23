@@ -1,0 +1,283 @@
+{
+  "schema": "nova.bms.daily_uncertainty.30day.v1",
+  "formal_pass": false,
+  "day_count": 30,
+  "complete_days": 30,
+  "items": [
+    {
+      "workbook": "bms_2023-166_targeted_j20fixed.xlsx",
+      "source_sha256": "f4048761f352a333c208a3e44b34e236e17a72ab021531f8dc1330c3724c272f",
+      "rows": 3911,
+      "x_finite": 3911,
+      "y_finite": 3911,
+      "x_p95": 30.7223843579388,
+      "y_p95": 0.03745180363163375
+    },
+    {
+      "workbook": "bms_2023-152_repaired_j20fixed2.xlsx",
+      "sha256": "725dc93c5ea6da2e7493889d75ccb19cba9f87fcf529100e5b127950a0c6d6f2",
+      "rows": 3911,
+      "x_finite": 3911,
+      "y_finite": 3911,
+      "x_p95": 30.642525496036097,
+      "y_p95": 0.036977023071551
+    },
+    {
+      "workbook": "bms_2023-153_repaired_j20fixed2.xlsx",
+      "sha256": "298ee61d5dafd81aafdf39663624b88c71cbba2a98a60e9a8ef3ba0e19c1ff08",
+      "rows": 3911,
+      "x_finite": 3911,
+      "y_finite": 3911,
+      "x_p95": 32.22497171243471,
+      "y_p95": 0.0364660701200149
+    },
+    {
+      "workbook": "bms_2023-154_repaired_j20fixed2.xlsx",
+      "sha256": "20bd31833cc41bebd4f06c2f9205f39ce5860eaaf255dc4fcca433e487004c94",
+      "rows": 3911,
+      "x_finite": 3911,
+      "y_finite": 3911,
+      "x_p95": 28.63922360969525,
+      "y_p95": 0.038392035537887004
+    },
+    {
+      "workbook": "bms_2023-155_repaired_j20fixed2.xlsx",
+      "sha256": "b5080cd8c8ead6d3482828d5967615356e0ba08414a25fcec3060bcfc90a307d",
+      "rows": 3911,
+      "x_finite": 3911,
+      "y_finite": 3911,
+      "x_p95": 28.5759229991351,
+      "y_p95": 0.03929686574232035
+    },
+    {
+      "workbook": "bms_2023-156_repaired_j20fixed2.xlsx",
+      "sha256": "69a8165f649b1b99c8060ea575350bde8b2edbf57114ed613c5b7ac10cd4b0e3",
+      "rows": 3911,
+      "x_finite": 3911,
+      "y_finite": 3911,
+      "x_p95": 30.826187694034854,
+      "y_p95": 0.039368530615485405
+    },
+    {
+      "workbook": "bms_2023-157_repaired_j20fixed2.xlsx",
+      "sha256": "120236469d7049ae33da9cf1e796abe6aa28fcd9fe200e2dd11205f86b889602",
+      "rows": 3911,
+      "x_finite": 3911,
+      "y_finite": 3911,
+      "x_p95": 32.76478797407865,
+      "y_p95": 0.03637506580007095
+    },
+    {
+      "workbook": "bms_2023-158_repaired_j20fixed2.xlsx",
+      "sha256": "68f838442cefee4ab9dc1e57daef53845bece875767791b92fc7776a1cc944ec",
+      "rows": 3911,
+      "x_finite": 3911,
+      "y_finite": 3911,
+      "x_p95": 32.53213747721955,
+      "y_p95": 0.03707681870631875
+    },
+    {
+      "workbook": "bms_2023-159_repaired_j20fixed2.xlsx",
+      "sha256": "4c999f3df486403583261dcdc3c8aeb5fe7c2167dc10b34c156d9206533f0b9c",
+      "rows": 3911,
+      "x_finite": 3911,
+      "y_finite": 3911,
+      "x_p95": 31.896215320742293,
+      "y_p95": 0.03703846587642625
+    },
+    {
+      "workbook": "bms_2023-160_repaired_j20fixed2.xlsx",
+      "sha256": "8167a16301324ad773a58314e6bf785025d4b5f006f6cfe9771b46bfc84a3c00",
+      "rows": 3911,
+      "x_finite": 3911,
+      "y_finite": 3911,
+      "x_p95": 30.649794212102243,
+      "y_p95": 0.0367668663143358
+    },
+    {
+      "workbook": "bms_2023-161_repaired_j20fixed2.xlsx",
+      "sha256": "aa76ebde7f31ebc3ebeac44ce11366037d1ca76d8b669c435f16cf3fe71587c2",
+      "rows": 3911,
+      "x_finite": 3911,
+      "y_finite": 3911,
+      "x_p95": 29.988536220119705,
+      "y_p95": 0.03673113561051125
+    },
+    {
+      "workbook": "bms_2023-162_repaired_j20fixed2.xlsx",
+      "sha256": "88a2f176d11d7a5c430f078a4244e09d24aeb4bce81f8822c3420dddf697c633",
+      "rows": 3911,
+      "x_finite": 3911,
+      "y_finite": 3911,
+      "x_p95": 28.59665447467995,
+      "y_p95": 0.0373884139333501
+    },
+    {
+      "workbook": "bms_2023-163_repaired_j20fixed2.xlsx",
+      "sha256": "c17db3713a2cfb59c804b50f9673e8bedb030006e6634d3f520a2e94fb08f387",
+      "rows": 3911,
+      "x_finite": 3911,
+      "y_finite": 3911,
+      "x_p95": 28.763856026568998,
+      "y_p95": 0.03693495271723275
+    },
+    {
+      "workbook": "bms_2023-164_repaired_j20fixed2.xlsx",
+      "sha256": "2f79b311458898f67c469a109e6cb6cbbf37ace7f761dd24b33e1212fd97a6a3",
+      "rows": 3911,
+      "x_finite": 3911,
+      "y_finite": 3911,
+      "x_p95": 28.6260536227072,
+      "y_p95": 0.036589561961656754
+    },
+    {
+      "workbook": "bms_2023-165_repaired_j20fixed2.xlsx",
+      "sha256": "7e7ff7e304fa0a3a403ab1bd9d8be946477f7c31af751e73b08f867c94786d19",
+      "rows": 3911,
+      "x_finite": 3911,
+      "y_finite": 3911,
+      "x_p95": 32.999427031289045,
+      "y_p95": 0.03711735532890905
+    },
+    {
+      "workbook": "bms_2023-167_repaired_j20fixed2.xlsx",
+      "sha256": "bfe9c8fd7769f7013b10dd8362ee7af1dae01d77cca22978f67529d2fd33963a",
+      "rows": 3911,
+      "x_finite": 3911,
+      "y_finite": 3911,
+      "x_p95": 28.5759229991351,
+      "y_p95": 0.03983503474747875
+    },
+    {
+      "workbook": "bms_2023-168_repaired_j20fixed2.xlsx",
+      "sha256": "4e88c8a73019782eeb6a841069eabf43a1ef30aa44543f2fbb70583821879d2b",
+      "rows": 3911,
+      "x_finite": 3911,
+      "y_finite": 3911,
+      "x_p95": 31.865428947561504,
+      "y_p95": 0.036367074865647754
+    },
+    {
+      "workbook": "bms_2023-169_repaired_j20fixed2.xlsx",
+      "sha256": "36fd224706a53de03910c7fe4d09fb4d8419a53b9302de4ef368c71018701282",
+      "rows": 3911,
+      "x_finite": 3911,
+      "y_finite": 3911,
+      "x_p95": 33.81906969174915,
+      "y_p95": 0.0365970384552828
+    },
+    {
+      "workbook": "bms_2023-170_repaired_j20fixed2.xlsx",
+      "sha256": "02f723264e8b12cbd3da84bb8b3b7f68b0b0ad704221df40a98b207bc81bec8c",
+      "rows": 3911,
+      "x_finite": 3911,
+      "y_finite": 3911,
+      "x_p95": 34.41689892812555,
+      "y_p95": 0.03669703910426605
+    },
+    {
+      "workbook": "bms_2023-171_repaired_j20fixed2.xlsx",
+      "sha256": "9eee3cfc7ba2fb22b61ce66fd6e49174b8f149913d8a38f7c1ab9773e80c20d8",
+      "rows": 3911,
+      "x_finite": 3911,
+      "y_finite": 3911,
+      "x_p95": 33.0096121655213,
+      "y_p95": 0.036339509880395304
+    },
+    {
+      "workbook": "bms_2023-172_repaired_j20fixed2.xlsx",
+      "sha256": "b9cec3d1b507e6fbb136b1c1c922a32d1746808c9eb2ba868511e73b05f1598f",
+      "rows": 3911,
+      "x_finite": 3911,
+      "y_finite": 3911,
+      "x_p95": 33.1570170260605,
+      "y_p95": 0.03711735532890905
+    },
+    {
+      "workbook": "bms_2023-173_repaired_j20fixed2.xlsx",
+      "sha256": "36beeaa18b991f4dd0443bcb8ea47c0cffa62e917f9ab58dcc9604798714dec1",
+      "rows": 3911,
+      "x_finite": 3911,
+      "y_finite": 3911,
+      "x_p95": 31.975241932179348,
+      "y_p95": 0.04005580507627665
+    },
+    {
+      "workbook": "bms_2023-174_repaired_j20fixed2.xlsx",
+      "sha256": "c5e0ddbd49fd09674820087f29e27d4124bd3f96a58335765ef6686bb9974db5",
+      "rows": 3911,
+      "x_finite": 3911,
+      "y_finite": 3911,
+      "x_p95": 33.9669690188923,
+      "y_p95": 0.03671060706331255
+    },
+    {
+      "workbook": "bms_2023-175_repaired_j20fixed2.xlsx",
+      "sha256": "c917ed53794fd38e71f4912cb1a19899f7e8c33120418b731033eb5cd1bdc919",
+      "rows": 3911,
+      "x_finite": 3911,
+      "y_finite": 3911,
+      "x_p95": 34.797674975080795,
+      "y_p95": 0.036317618235988704
+    },
+    {
+      "workbook": "bms_2023-176_repaired_j20fixed2.xlsx",
+      "sha256": "5cfec3e30975a97953af7657e38970f99769adc8ffd269533d355fc26fd9fafa",
+      "rows": 3911,
+      "x_finite": 3911,
+      "y_finite": 3911,
+      "x_p95": 33.974326055435654,
+      "y_p95": 0.0367458088266549
+    },
+    {
+      "workbook": "bms_2023-177_repaired_j20fixed2.xlsx",
+      "sha256": "0c17a6138b1b43ea58f44b6948d8376a4bde9c325e3b5142166ed7a4adb2e4f4",
+      "rows": 3911,
+      "x_finite": 3911,
+      "y_finite": 3911,
+      "x_p95": 34.12627095931325,
+      "y_p95": 0.036460576865502844
+    },
+    {
+      "workbook": "bms_2023-178_repaired_j20fixed2.xlsx",
+      "sha256": "acb8612682572c121161b1a080881ddd57d473bf724411ad7c52925902737b52",
+      "rows": 3911,
+      "x_finite": 3911,
+      "y_finite": 3911,
+      "x_p95": 29.884348737716596,
+      "y_p95": 0.03643194100756571
+    },
+    {
+      "workbook": "bms_2023-179_repaired_j20fixed2.xlsx",
+      "sha256": "c47089b25278d8b322ef48a2d34d1c43bce951c27abb2eeace44e5f811689e5e",
+      "rows": 3911,
+      "x_finite": 3911,
+      "y_finite": 3911,
+      "x_p95": 33.12096413639905,
+      "y_p95": 0.036986843672117256
+    },
+    {
+      "workbook": "bms_2023-180_repaired_j20fixed2.xlsx",
+      "sha256": "0dbca4a97e31e305239264ea030eb32b35a2c63ff8fe8bcb9535f99ec694580e",
+      "rows": 3911,
+      "x_finite": 3911,
+      "y_finite": 3911,
+      "x_p95": 33.18775946443415,
+      "y_p95": 0.03867436728209965
+    },
+    {
+      "workbook": "bms_2023-181_repaired_j20fixed2.xlsx",
+      "sha256": "b00acb6af5c07303b05da4dab0936b8e920d444b31df1fe4d9eca219e0524382",
+      "rows": 3911,
+      "x_finite": 3911,
+      "y_finite": 3911,
+      "x_p95": 30.160336761348947,
+      "y_p95": 0.0376707488254697
+    }
+  ],
+  "aggregate": {
+    "x_p95_across_days": 34.286116342160014,
+    "y_p95_across_days": 0.03962510788808175
+  },
+  "note": "Daily X/Y outputs are preserved separately. This ledger does not add calibration uncertainty or claim formal validation."
+}
