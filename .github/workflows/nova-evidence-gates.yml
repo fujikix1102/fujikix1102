@@ -36,6 +36,13 @@ jobs:
           tar -xOf reproducibility/nova_scientific_validity_bms_cmp22_20261023_repro_bundle_v11_gate.tar.gz \
             nova_scientific_validity_bms_cmp22_20261023_repro_bundle_v11/manifest.json | grep -q '"formal_pass": false'
 
+      - name: Verify evidence template is rejected until completed
+        run: |
+          set +e
+          python3 reproducibility/validate-third-party-evidence.py reproducibility/third_party_evidence_template.json
+          rc=$?
+          test "$rc" -eq 4
+
       - name: Assert formal pass remains false in public ledgers
         run: |
           python3 - <<'PY'

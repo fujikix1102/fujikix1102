@@ -43,3 +43,6 @@ python3 validate_third_party_evidence.py evidence.json
 
 The validator fails closed when required evidence is missing, human execution
 is not explicitly confirmed, or `formal_pass` is prematurely set to `true`.
+
+
+Evidence submission template: `reproducibility/third_party_evidence_template.json`. Replace every placeholder only after an independent human rerun; do not submit the template itself as evidence.
