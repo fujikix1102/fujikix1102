@@ -1,0 +1,85 @@
+{
+  "schema": "NOVA_GPM_MRMS_2024_PHASE_JOIN_EXPLORATORY_V1",
+  "dates": [
+    "2024-01-07",
+    "2024-02-01"
+  ],
+  "row_count": 144,
+  "expected_rows": 48,
+  "time_key_status": "EXACT_HOURLY_INDEX_0_TO_23_PER_DAY",
+  "official_mapping": "mrms_precipflag_official_parameter_table_20261024.json",
+  "phase_assignment": "dominant 29-cell mapped class; ties retained as MIXED_TIE",
+  "issues": [],
+  "phase_summary": {
+    "NO_PRECIP": {
+      "basin_mean": {
+        "n": 29,
+        "mean_difference_mm": -0.019191937050688515,
+        "mae_mm": 0.020530586274565433,
+        "rmse_mm": 0.10701688463862603,
+        "bootstrap_ci95_mean_difference_mm": [
+          -0.059583784987880924,
+          0.0020079738358153815
+        ]
+      },
+      "common_cells": {
+        "n": 29,
+        "mean_difference_mm": -0.019192166958073433,
+        "mae_mm": 0.020530816181287787,
+        "rmse_mm": 0.10701812202350457,
+        "bootstrap_ci95_mean_difference_mm": [
+          -0.05958447470904183,
+          0.002007973834821526
+        ]
+      },
+      "conservative_area_regrid": {
+        "n": 29,
+        "mean_difference_mm": -0.019191922612020088,
+        "mae_mm": 0.02053060071323386,
+        "rmse_mm": 0.10701688725749826,
+        "bootstrap_ci95_mean_difference_mm": [
+          -0.059583784987880924,
+          0.0020080171518206506
+        ]
+      }
+    },
+    "SNOW": {
+      "basin_mean": {
+        "n": 19,
+        "mean_difference_mm": -0.4941757881491938,
+        "mae_mm": 1.313889737963929,
+        "rmse_mm": 2.1881053311639143,
+        "bootstrap_ci95_mean_difference_mm": [
+          -1.4298758966899172,
+          0.46579238643677034
+        ]
+      },
+      "common_cells": {
+        "n": 19,
+        "mean_difference_mm": -0.4941766780117927,
+        "mae_mm": 1.313890363950957,
+        "rmse_mm": 2.188108077869497,
+        "bootstrap_ci95_mean_difference_mm": [
+          -1.455774653756057,
+          0.48416048059865224
+        ]
+      },
+      "conservative_area_regrid": {
+        "n": 19,
+        "mean_difference_mm": -0.4941735653656465,
+        "mae_mm": 1.3138866379795955,
+        "rmse_mm": 2.18810912347742,
+        "bootstrap_ci95_mean_difference_mm": [
+          -1.4366636123857381,
+          0.438728089138176
+        ]
+      }
+    }
+  },
+  "limitations": [
+    "Only two independent days; phase-specific bootstrap intervals are exploratory, not a formal validation gate.",
+    "The conservative method uses the existing result field and MRMS basin value as recorded in the source result.",
+    "No calibration coefficient or formal product correction is inferred."
+  ],
+  "formal_pass": false
+}

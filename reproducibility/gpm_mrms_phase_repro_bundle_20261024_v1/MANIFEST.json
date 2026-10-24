@@ -1,0 +1,17 @@
+{
+  "schema": "NOVA_GPM_MRMS_PHASE_REPRO_BUNDLE_MANIFEST_V1",
+  "bundle_version": "20261024_v1",
+  "purpose": "Third-party diagnostic reproduction of phase-stratified GPM-MRMS comparison",
+  "formal_pass": false,
+  "human_third_party_execution": "NOT_ESTABLISHED",
+  "files": [
+    "README.md",
+    "mrms_precipflag_official_parameter_table_20261024.json",
+    "gpm_mrms_2024_phase_join_exploratory_20261024.json",
+    "gpm_mrms_2024_phase_join_exploratory_20261024.csv",
+    "gpm_mrms_seven_day_phase_bootstrap_20261024_v3.json",
+    "gpm_mrms_seven_day_phase_dayblock_bootstrap_20261024.json",
+    "nova_gpm_mrms_integrated_status_ledger_20261024.json"
+  ],
+  "excluded": "Raw GPM/MRMS archives are referenced by source ledgers and are not duplicated in this lightweight bundle."
+}

@@ -1,0 +1,37 @@
+{
+  "schema": "NOVA_MRMS_PRECIPFLAG_OFFICIAL_PARAMETER_TABLE_V1",
+  "source_url": "https://raw.githubusercontent.com/NOAA-National-Severe-Storms-Laboratory/mrms-support/main/GRIB2_TABLES/UserTable_MRMS_PrecipFlags.csv",
+  "retrieved_at_utc": "2026-10-24T00:23:08Z",
+  "source_sha256": "a0143c6a0edef6b74a7690b54ebfdba433a0c2148e1c6b64bf9f660d181f315c",
+  "parameter": {
+    "name": "PrecipFlag",
+    "discipline": 209,
+    "category": 6,
+    "parameter_number": 0,
+    "unit": "flag",
+    "frequency": "2-min",
+    "missing_value": -1,
+    "no_coverage_value": -3,
+    "description": "Surface Precipitation Type (Convective, Stratiform, Tropical, Hail, Snow)"
+  },
+  "flag_definitions": {
+    "-3": "NO_COVERAGE",
+    "0": "NO_PRECIP",
+    "1": "RAIN_WARM_STRATIFORM",
+    "3": "SNOW",
+    "6": "RAIN_CONVECTIVE",
+    "7": "RAIN_MIXED_WITH_HAIL",
+    "10": "RAIN_COLD_STRATIFORM",
+    "91": "RAIN_TROPICAL_STRATIFORM_MIX",
+    "96": "RAIN_TROPICAL_CONVECTIVE_MIX"
+  },
+  "analysis_mapping": {
+    "NO_PRECIP": [0],
+    "SNOW": [3],
+    "RAIN_OR_MIXED": [1, 6, 7, 10, 91, 96],
+    "MISSING": [-1],
+    "OUT_OF_COVERAGE": [-3]
+  },
+  "mapping_basis": "Official flag table; no inference from observed frequencies",
+  "formal_pass": false
+}

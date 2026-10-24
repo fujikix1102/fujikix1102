@@ -1,0 +1,69 @@
+{
+  "schema": "NOVA_GPM_MRMS_BMS_INTEGRATED_STATUS_LEDGER_V2",
+  "generated_at_utc": "2026-10-24T00:45:00Z",
+  "inputs_sha256": {
+    "five_day_three_method_result": "99ddd4796ef23aa1ee792859d2db18bb9d7ee218b714c3765bc6728c26592a1c",
+    "five_day_integrated_audit": "459a0abcb19a58513f466919e5a32bc65d4e26cd6546c84dea069274e5c92dc0",
+    "official_precipflag_table": "ee06b7de65a2e369e16d92f5361f0d5d6988c35856d85bc402d624bf3aa15699",
+    "2024_phase_join": "5da2571f5d79b58c23c840f4082fba72f3ab833b5233546fba39aef14d07a67f",
+    "seven_day_phase_bootstrap": "f26c1e5caba4963a922fcf46cb56988ebf695c7609d2ab071e3beab6ff570175",
+    "seven_day_dayblock_bootstrap": "1fbbcd567f2c22459e821c81a1d6d975e4a8519afe9527e4eb13fa237b8244c2"
+  },
+  "five_day_runner": {
+    "row_count": 120,
+    "errors": 0,
+    "spatial_methods_complete": true,
+    "method_status": {
+      "basin_mean": "VERIFIED_INPUT",
+      "common_cells": "CALCULATED",
+      "conservative_area_regrid": "CALCULATED"
+    },
+    "formal_pass": false,
+    "result_sha256": "99ddd4796ef23aa1ee792859d2db18bb9d7ee218b714c3765bc6728c26592a1c"
+  },
+  "precipflag": {
+    "official_mapping_status": "Official flag table; no inference from observed frequencies",
+    "observed_values": {
+      "-3": "NO_COVERAGE",
+      "0": "NO_PRECIP",
+      "1": "RAIN_WARM_STRATIFORM",
+      "3": "SNOW",
+      "6": "RAIN_CONVECTIVE",
+      "7": "RAIN_MIXED_WITH_HAIL",
+      "10": "RAIN_COLD_STRATIFORM",
+      "91": "RAIN_TROPICAL_STRATIFORM_MIX",
+      "96": "RAIN_TROPICAL_CONVECTIVE_MIX"
+    },
+    "2024_join_rows": 144,
+    "2024_join_formal_pass": false,
+    "seven_day_rows": 216,
+    "seven_day_phase_counts": {
+      "NO_PRECIP": 136,
+      "RAIN_OR_MIXED": 7,
+      "SNOW": 73
+    },
+    "seven_day_dayblock_independent_days": {
+      "NO_PRECIP": 12,
+      "RAIN_OR_MIXED": 2,
+      "SNOW": 8
+    },
+    "phase_bootstrap_formal_pass": false,
+    "dayblock_formal_pass": false
+  },
+  "claim_gates": {
+    "execution_complete": true,
+    "numerical_verified": "VERIFIED_FOR_SPECIFIED_CHECKS",
+    "statistical_valid": "CONDITIONALLY_SUPPORTED_DIAGNOSTIC_ONLY",
+    "external_verified": false,
+    "physical_calibrated": false,
+    "human_third_party_execution": "NOT_ESTABLISHED",
+    "formal_pass": false
+  },
+  "limitations": [
+    "Phase labels are official flag mappings, but precipitation truth is not independently established.",
+    "Rain/mixed phase has only two independent days in day-block analysis.",
+    "The five-day spatial comparison remains diagnostic and is not a calibration or universal correction.",
+    "No human third-party execution evidence has been received."
+  ],
+  "decision": "INTEGRATED_DIAGNOSTIC_LEDGER_UPDATED_FORMAL_PASS_FALSE"
+}

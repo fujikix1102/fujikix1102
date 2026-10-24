@@ -1,0 +1,1609 @@
+{
+  "schema": "NOVA_GPM_MRMS_SEVEN_DAY_PHASE_BOOTSTRAP_V3",
+  "created_at_utc": "2026-10-24T00:30:00Z",
+  "source_inputs": {
+    "previous_phase_bootstrap_sha256": "a5470eb20f9be4bb16efc14aa9ea7001d22e44640eba5ee28d715fd37378dbb6",
+    "official_mapping_sha256": "ee06b7de65a2e369e16d92f5361f0d5d6988c35856d85bc402d624bf3aa15699",
+    "new_2024_join_sha256": "5da2571f5d79b58c23c840f4082fba72f3ab833b5233546fba39aef14d07a67f"
+  },
+  "row_count": 216,
+  "matched_rows": 216,
+  "unmatched_rows": 0,
+  "dates": [
+    "2024-01-07",
+    "2024-02-01",
+    "2025-01-11",
+    "2025-01-18",
+    "2025-01-20",
+    "2025-01-31",
+    "2025-02-06"
+  ],
+  "phase_counts": {
+    "NO_PRECIP": 136,
+    "RAIN_OR_MIXED": 7,
+    "SNOW": 73
+  },
+  "phase_summary": {
+    "NO_PRECIP": {
+      "basin_mean_difference_mm": {
+        "n": 136,
+        "mean": 0.0010342792135945487,
+        "ci95_low": -0.017864456576119205,
+        "ci95_high": 0.019013886678588804
+      },
+      "common_cells_difference_mm": {
+        "n": 136,
+        "mean": 0.001034268770751047,
+        "ci95_low": -0.017873009428304405,
+        "ci95_high": 0.018519919001321147
+      },
+      "conservative_regrid_difference_mm": {
+        "n": 136,
+        "mean": 0.0010342029758858545,
+        "ci95_low": -0.018322872680054263,
+        "ci95_high": 0.01912386697832629
+      }
+    },
+    "RAIN_OR_MIXED": {
+      "basin_mean_difference_mm": {
+        "n": 7,
+        "mean": 0.372915310682446,
+        "ci95_low": -0.343739111504637,
+        "ci95_high": 1.2363511883933247
+      },
+      "common_cells_difference_mm": {
+        "n": 7,
+        "mean": 0.3729145230738021,
+        "ci95_low": -0.3437398498272564,
+        "ci95_high": 1.2386349249491622
+      },
+      "conservative_regrid_difference_mm": {
+        "n": 7,
+        "mean": 0.3729123962119922,
+        "ci95_low": -0.35397654424953473,
+        "ci95_high": 1.2511101346090514
+      }
+    },
+    "SNOW": {
+      "basin_mean_difference_mm": {
+        "n": 73,
+        "mean": -0.3993672693167773,
+        "ci95_low": -0.7679794641569962,
+        "ci95_high": -0.03778849821085512
+      },
+      "common_cells_difference_mm": {
+        "n": 73,
+        "mean": -0.3993682115865291,
+        "ci95_low": -0.7624015994398349,
+        "ci95_high": -0.045684115274734066
+      },
+      "conservative_regrid_difference_mm": {
+        "n": 73,
+        "mean": -0.3993664200273742,
+        "ci95_low": -0.7658727822833233,
+        "ci95_high": -0.034066034557800245
+      }
+    }
+  },
+  "rows": [
+    {
+      "utc_end": "2025-01-11T00:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-11T01:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-11T02:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-11T03:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-11T04:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-11T05:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-11T06:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": 0.0015766822341051526,
+      "common_cells_difference_mm": 0.001576682278944073,
+      "conservative_regrid_difference_mm": 0.0015767419059329222
+    },
+    {
+      "utc_end": "2025-01-11T07:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": 0.1871370064450404,
+      "common_cells_difference_mm": 0.18713700680184103,
+      "conservative_regrid_difference_mm": 0.18714026878932294
+    },
+    {
+      "utc_end": "2025-01-11T08:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-11T09:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-11T10:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-11T11:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -0.5413057555689403,
+      "common_cells_difference_mm": -0.5413075499189907,
+      "conservative_regrid_difference_mm": -0.5413057555689403
+    },
+    {
+      "utc_end": "2025-01-11T12:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -0.4237545016308388,
+      "common_cells_difference_mm": -0.4237548396645369,
+      "conservative_regrid_difference_mm": -0.4237545016308388
+    },
+    {
+      "utc_end": "2025-01-11T13:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -0.3000000119209288,
+      "common_cells_difference_mm": -0.300000011920929,
+      "conservative_regrid_difference_mm": -0.3000000119209288
+    },
+    {
+      "utc_end": "2025-01-11T14:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-11T15:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-11T16:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-11T17:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-11T18:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-11T19:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-11T20:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-11T21:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-11T22:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-11T23:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-18T00:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-18T01:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-18T02:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-18T03:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-18T04:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-18T05:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-18T06:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-18T07:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-18T08:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-18T09:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-18T10:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-18T11:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-18T12:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-18T13:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.027945724920186644,
+      "common_cells_difference_mm": 0.0279457250061435,
+      "conservative_regrid_difference_mm": 0.027946409018922383
+    },
+    {
+      "utc_end": "2025-01-18T14:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.09023695681745779,
+      "common_cells_difference_mm": 0.09023695612327354,
+      "conservative_regrid_difference_mm": 0.09023865364622305
+    },
+    {
+      "utc_end": "2025-01-18T15:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.036356745092255685,
+      "common_cells_difference_mm": 0.03635674499214036,
+      "conservative_regrid_difference_mm": 0.03635752338956357
+    },
+    {
+      "utc_end": "2025-01-18T16:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-18T17:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-18T18:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0031533644682103052,
+      "common_cells_difference_mm": 0.003153364557888146,
+      "conservative_regrid_difference_mm": 0.0031534838118658444
+    },
+    {
+      "utc_end": "2025-01-18T19:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": -0.1517871762554765,
+      "common_cells_difference_mm": -0.15179004365649795,
+      "conservative_regrid_difference_mm": -0.15178665505289218
+    },
+    {
+      "utc_end": "2025-01-18T20:00:00Z",
+      "phase": "RAIN_OR_MIXED",
+      "basin_mean_difference_mm": 1.4587592608255333,
+      "common_cells_difference_mm": 1.458758451706129,
+      "conservative_regrid_difference_mm": 1.4587350592304034
+    },
+    {
+      "utc_end": "2025-01-18T21:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": -0.29286036658629166,
+      "common_cells_difference_mm": -0.29285951966387824,
+      "conservative_regrid_difference_mm": -0.29286036658629166
+    },
+    {
+      "utc_end": "2025-01-18T22:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-18T23:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-20T00:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -1.8386840115898517,
+      "common_cells_difference_mm": -1.8386824320820911,
+      "conservative_regrid_difference_mm": -1.838681234632498
+    },
+    {
+      "utc_end": "2025-01-20T01:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -0.6121771011277514,
+      "common_cells_difference_mm": -0.6121763430659718,
+      "conservative_regrid_difference_mm": -0.6121688917713122
+    },
+    {
+      "utc_end": "2025-01-20T02:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -1.2283261047040754,
+      "common_cells_difference_mm": -1.2283253595661028,
+      "conservative_regrid_difference_mm": -1.2283261047040754
+    },
+    {
+      "utc_end": "2025-01-20T03:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -0.600818190224673,
+      "common_cells_difference_mm": -0.6008179955236906,
+      "conservative_regrid_difference_mm": -0.600819510983208
+    },
+    {
+      "utc_end": "2025-01-20T04:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -0.5415349094555105,
+      "common_cells_difference_mm": -0.5415333370273576,
+      "conservative_regrid_difference_mm": -0.5415349094555105
+    },
+    {
+      "utc_end": "2025-01-20T05:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -0.26931722716824935,
+      "common_cells_difference_mm": -0.2693194909286847,
+      "conservative_regrid_difference_mm": -0.26933216297746626
+    },
+    {
+      "utc_end": "2025-01-20T06:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.3721692790964986,
+      "common_cells_difference_mm": 0.37217295048981985,
+      "conservative_regrid_difference_mm": 0.37217389432552805
+    },
+    {
+      "utc_end": "2025-01-20T07:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.20583866550311833,
+      "common_cells_difference_mm": 0.20583866523883054,
+      "conservative_regrid_difference_mm": 0.20583948958992002
+    },
+    {
+      "utc_end": "2025-01-20T08:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-20T09:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-20T10:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-20T11:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-20T12:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-20T13:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-20T14:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-20T15:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-20T16:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-20T17:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-20T18:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-20T19:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-20T20:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.00827114442306469,
+      "common_cells_difference_mm": 0.008271144486493612,
+      "conservative_regrid_difference_mm": 0.008269970702438609
+    },
+    {
+      "utc_end": "2025-01-20T21:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-20T22:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-20T23:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-31T00:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-31T01:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.011564383922267878,
+      "common_cells_difference_mm": 0.011564383825873544,
+      "conservative_regrid_difference_mm": 0.011564597464482303
+    },
+    {
+      "utc_end": "2025-01-31T02:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-31T03:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-31T04:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-01-31T05:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.002988893260577712,
+      "common_cells_difference_mm": 0.002988893317290138,
+      "conservative_regrid_difference_mm": 0.0029880524258216012
+    },
+    {
+      "utc_end": "2025-01-31T06:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0063067289364206105,
+      "common_cells_difference_mm": 0.006306729115776292,
+      "conservative_regrid_difference_mm": 0.006306967623731689
+    },
+    {
+      "utc_end": "2025-01-31T07:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.10555693859944582,
+      "common_cells_difference_mm": 0.10555694018378543,
+      "conservative_regrid_difference_mm": 0.1055601864594309
+    },
+    {
+      "utc_end": "2025-01-31T08:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.007970382193162722,
+      "common_cells_difference_mm": 0.00797038234439586,
+      "conservative_regrid_difference_mm": 0.00796813996710002
+    },
+    {
+      "utc_end": "2025-01-31T09:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.008671752434418319,
+      "common_cells_difference_mm": 0.008671752681032386,
+      "conservative_regrid_difference_mm": 0.00867208062947661
+    },
+    {
+      "utc_end": "2025-01-31T10:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.11611436749452463,
+      "common_cells_difference_mm": 0.11611436659538285,
+      "conservative_regrid_difference_mm": 0.11611635869583237
+    },
+    {
+      "utc_end": "2025-01-31T11:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": 0.12077694804483624,
+      "common_cells_difference_mm": 0.12077694846792275,
+      "conservative_regrid_difference_mm": 0.12077298982239737
+    },
+    {
+      "utc_end": "2025-01-31T12:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -0.21134867142701427,
+      "common_cells_difference_mm": -0.21135448649496844,
+      "conservative_regrid_difference_mm": -0.21134560742182765
+    },
+    {
+      "utc_end": "2025-01-31T13:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.6554566257930938,
+      "common_cells_difference_mm": 0.6554566304316671,
+      "conservative_regrid_difference_mm": 0.6554525514526274
+    },
+    {
+      "utc_end": "2025-01-31T14:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.1443435384442035,
+      "common_cells_difference_mm": 0.1443435392741499,
+      "conservative_regrid_difference_mm": 0.1443413022516584
+    },
+    {
+      "utc_end": "2025-01-31T15:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": 0.4440739692347832,
+      "common_cells_difference_mm": 0.44407486487777525,
+      "conservative_regrid_difference_mm": 0.44407895234419054
+    },
+    {
+      "utc_end": "2025-01-31T16:00:00Z",
+      "phase": "RAIN_OR_MIXED",
+      "basin_mean_difference_mm": -0.009581245123506115,
+      "common_cells_difference_mm": -0.009580882396831872,
+      "conservative_regrid_difference_mm": -0.009581245123506115
+    },
+    {
+      "utc_end": "2025-01-31T17:00:00Z",
+      "phase": "RAIN_OR_MIXED",
+      "basin_mean_difference_mm": -0.20202074344421767,
+      "common_cells_difference_mm": -0.20202505867912612,
+      "conservative_regrid_difference_mm": -0.20201979294955172
+    },
+    {
+      "utc_end": "2025-01-31T18:00:00Z",
+      "phase": "RAIN_OR_MIXED",
+      "basin_mean_difference_mm": -0.3787973601632331,
+      "common_cells_difference_mm": -0.3788021621483621,
+      "conservative_regrid_difference_mm": -0.3787973601632331
+    },
+    {
+      "utc_end": "2025-01-31T19:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.04228092358280751,
+      "common_cells_difference_mm": 0.042275762396762284,
+      "conservative_regrid_difference_mm": 0.04228029209180802
+    },
+    {
+      "utc_end": "2025-01-31T20:00:00Z",
+      "phase": "RAIN_OR_MIXED",
+      "basin_mean_difference_mm": 0.062072957119236785,
+      "common_cells_difference_mm": 0.06207295827836288,
+      "conservative_regrid_difference_mm": 0.062071654429401726
+    },
+    {
+      "utc_end": "2025-01-31T21:00:00Z",
+      "phase": "RAIN_OR_MIXED",
+      "basin_mean_difference_mm": -0.8379133227382607,
+      "common_cells_difference_mm": -0.8379093725828558,
+      "conservative_regrid_difference_mm": -0.8379181867186972
+    },
+    {
+      "utc_end": "2025-01-31T22:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": -0.7226895075225901,
+      "common_cells_difference_mm": -0.7226793082174723,
+      "conservative_regrid_difference_mm": -0.7227049222406055
+    },
+    {
+      "utc_end": "2025-01-31T23:00:00Z",
+      "phase": "RAIN_OR_MIXED",
+      "basin_mean_difference_mm": 2.5178876283015694,
+      "common_cells_difference_mm": 2.5178877273392986,
+      "conservative_regrid_difference_mm": 2.5178966447791287
+    },
+    {
+      "utc_end": "2025-02-06T00:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-02-06T01:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-02-06T02:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-02-06T03:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-02-06T04:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.003941705438422903,
+      "common_cells_difference_mm": 0.003941705550520199,
+      "conservative_regrid_difference_mm": 0.003941854617986769
+    },
+    {
+      "utc_end": "2025-02-06T05:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-02-06T06:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-02-06T07:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-02-06T08:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-02-06T09:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-02-06T10:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-02-06T11:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": 0.16744320452673125,
+      "common_cells_difference_mm": 0.16743799943305365,
+      "conservative_regrid_difference_mm": 0.16744233433857833
+    },
+    {
+      "utc_end": "2025-02-06T12:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -0.125593418422711,
+      "common_cells_difference_mm": -0.1255958919683966,
+      "conservative_regrid_difference_mm": -0.1256157260819979
+    },
+    {
+      "utc_end": "2025-02-06T13:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -1.543664018315073,
+      "common_cells_difference_mm": -1.5436734059117854,
+      "conservative_regrid_difference_mm": -1.5436654558345286
+    },
+    {
+      "utc_end": "2025-02-06T14:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -0.5655287317442798,
+      "common_cells_difference_mm": -0.5655238114645518,
+      "conservative_regrid_difference_mm": -0.5655287246800641
+    },
+    {
+      "utc_end": "2025-02-06T15:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -0.16336562792938414,
+      "common_cells_difference_mm": -0.1633697552088058,
+      "conservative_regrid_difference_mm": -0.16336562792938414
+    },
+    {
+      "utc_end": "2025-02-06T16:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -0.6631139906424446,
+      "common_cells_difference_mm": -0.6631167178663365,
+      "conservative_regrid_difference_mm": -0.6631139906424446
+    },
+    {
+      "utc_end": "2025-02-06T17:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -0.14834190239320202,
+      "common_cells_difference_mm": -0.14834284478282891,
+      "conservative_regrid_difference_mm": -0.14834190239320202
+    },
+    {
+      "utc_end": "2025-02-06T18:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -0.9432877584597633,
+      "common_cells_difference_mm": -0.9432916543112683,
+      "conservative_regrid_difference_mm": -0.9432877584597633
+    },
+    {
+      "utc_end": "2025-02-06T19:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": -0.004013336283169058,
+      "common_cells_difference_mm": -0.0040147842037131475,
+      "conservative_regrid_difference_mm": -0.004013336283169058
+    },
+    {
+      "utc_end": "2025-02-06T20:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-02-06T21:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-02-06T22:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2025-02-06T23:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "20240107-000000",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": 0.19575538452279295,
+      "common_cells_difference_mm": 0.19575533164524883,
+      "conservative_regrid_difference_mm": 0.19575336838915913
+    },
+    {
+      "utc_end": "20240107-010000",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": 5.318399721227897,
+      "common_cells_difference_mm": 5.318399471589672,
+      "conservative_regrid_difference_mm": 5.318468279914472
+    },
+    {
+      "utc_end": "20240107-020000",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": 2.273127417489295,
+      "common_cells_difference_mm": 2.2731252131871393,
+      "conservative_regrid_difference_mm": 2.2730525415288834
+    },
+    {
+      "utc_end": "20240107-030000",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -0.7192514849275504,
+      "common_cells_difference_mm": -0.719256475485476,
+      "conservative_regrid_difference_mm": -0.7192009186326809
+    },
+    {
+      "utc_end": "20240107-040000",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -5.618662881431052,
+      "common_cells_difference_mm": -5.618684189743857,
+      "conservative_regrid_difference_mm": -5.618662881431052
+    },
+    {
+      "utc_end": "20240107-050000",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -4.283573247152393,
+      "common_cells_difference_mm": -4.2835764633906575,
+      "conservative_regrid_difference_mm": -4.283573247152393
+    },
+    {
+      "utc_end": "20240107-060000",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -1.2062415290106716,
+      "common_cells_difference_mm": -1.2062335075017736,
+      "conservative_regrid_difference_mm": -1.2062415290106716
+    },
+    {
+      "utc_end": "20240107-070000",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -0.2318308853530738,
+      "common_cells_difference_mm": -0.2318263703180267,
+      "conservative_regrid_difference_mm": -0.2318308853530738
+    },
+    {
+      "utc_end": "20240107-080000",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "20240107-090000",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "20240107-100000",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "20240107-110000",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -0.025422179359782263,
+      "common_cells_difference_mm": -0.025421216927191053,
+      "conservative_regrid_difference_mm": -0.025422179359782263
+    },
+    {
+      "utc_end": "20240107-120000",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -0.546278906521031,
+      "common_cells_difference_mm": -0.5462800799010309,
+      "conservative_regrid_difference_mm": -0.546278906521031
+    },
+    {
+      "utc_end": "20240107-130000",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -0.5732739777666734,
+      "common_cells_difference_mm": -0.5732785561593577,
+      "conservative_regrid_difference_mm": -0.5732739777666734
+    },
+    {
+      "utc_end": "20240107-140000",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -0.5759765882161823,
+      "common_cells_difference_mm": -0.5759832555207377,
+      "conservative_regrid_difference_mm": -0.5759765882161823
+    },
+    {
+      "utc_end": "20240107-150000",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -0.6246251519955465,
+      "common_cells_difference_mm": -0.6246242050467138,
+      "conservative_regrid_difference_mm": -0.6246251519955465
+    },
+    {
+      "utc_end": "20240107-160000",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -0.8808899635610823,
+      "common_cells_difference_mm": -0.8808880330129158,
+      "conservative_regrid_difference_mm": -0.8808899635610823
+    },
+    {
+      "utc_end": "20240107-170000",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -1.823712895479618,
+      "common_cells_difference_mm": -1.82370960051589,
+      "conservative_regrid_difference_mm": -1.823712895479618
+    },
+    {
+      "utc_end": "20240107-180000",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -0.6428593955161925,
+      "common_cells_difference_mm": -0.6428582006432324,
+      "conservative_regrid_difference_mm": -0.6428593955161925
+    },
+    {
+      "utc_end": "20240107-190000",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "20240107-200000",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "20240107-210000",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "20240107-220000",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "20240107-230000",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "20240201-000000",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "20240201-010000",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "20240201-020000",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "20240201-030000",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "20240201-040000",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "20240201-050000",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "20240201-060000",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "20240201-070000",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "20240201-080000",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "20240201-090000",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "20240201-100000",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "20240201-110000",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "20240201-120000",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "20240201-130000",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "20240201-140000",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "20240201-150000",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "20240201-160000",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "20240201-170000",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.019410413746215355,
+      "common_cells_difference_mm": 0.01941041373660808,
+      "conservative_regrid_difference_mm": 0.019410832467599625
+    },
+    {
+      "utc_end": "20240201-180000",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "20240201-190000",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "20240201-200000",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "20240201-210000",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "20240201-220000",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "20240201-230000",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2024-01-07T00:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": 0.19575538452279295,
+      "common_cells_difference_mm": 0.19575533164524883,
+      "conservative_regrid_difference_mm": 0.19575336838915913
+    },
+    {
+      "utc_end": "2024-01-07T01:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": 5.318399721227897,
+      "common_cells_difference_mm": 5.318399471589672,
+      "conservative_regrid_difference_mm": 5.318468279914472
+    },
+    {
+      "utc_end": "2024-01-07T02:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": 2.273127417489295,
+      "common_cells_difference_mm": 2.2731252131871393,
+      "conservative_regrid_difference_mm": 2.2730525415288834
+    },
+    {
+      "utc_end": "2024-01-07T03:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -0.7192514849275504,
+      "common_cells_difference_mm": -0.719256475485476,
+      "conservative_regrid_difference_mm": -0.7192009186326809
+    },
+    {
+      "utc_end": "2024-01-07T04:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -5.618662881431052,
+      "common_cells_difference_mm": -5.618684189743857,
+      "conservative_regrid_difference_mm": -5.618662881431052
+    },
+    {
+      "utc_end": "2024-01-07T05:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -4.283573247152393,
+      "common_cells_difference_mm": -4.2835764633906575,
+      "conservative_regrid_difference_mm": -4.283573247152393
+    },
+    {
+      "utc_end": "2024-01-07T06:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -1.2062415290106716,
+      "common_cells_difference_mm": -1.2062335075017736,
+      "conservative_regrid_difference_mm": -1.2062415290106716
+    },
+    {
+      "utc_end": "2024-01-07T07:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -0.2318308853530738,
+      "common_cells_difference_mm": -0.2318263703180267,
+      "conservative_regrid_difference_mm": -0.2318308853530738
+    },
+    {
+      "utc_end": "2024-01-07T08:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2024-01-07T09:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2024-01-07T10:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2024-01-07T11:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -0.025422179359782263,
+      "common_cells_difference_mm": -0.025421216927191053,
+      "conservative_regrid_difference_mm": -0.025422179359782263
+    },
+    {
+      "utc_end": "2024-01-07T12:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -0.546278906521031,
+      "common_cells_difference_mm": -0.5462800799010309,
+      "conservative_regrid_difference_mm": -0.546278906521031
+    },
+    {
+      "utc_end": "2024-01-07T13:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -0.5732739777666734,
+      "common_cells_difference_mm": -0.5732785561593577,
+      "conservative_regrid_difference_mm": -0.5732739777666734
+    },
+    {
+      "utc_end": "2024-01-07T14:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": -0.5759765882161823,
+      "common_cells_difference_mm": -0.5759832555207377,
+      "conservative_regrid_difference_mm": -0.5759765882161823
+    },
+    {
+      "utc_end": "2024-01-07T15:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -0.6246251519955465,
+      "common_cells_difference_mm": -0.6246242050467138,
+      "conservative_regrid_difference_mm": -0.6246251519955465
+    },
+    {
+      "utc_end": "2024-01-07T16:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -0.8808899635610823,
+      "common_cells_difference_mm": -0.8808880330129158,
+      "conservative_regrid_difference_mm": -0.8808899635610823
+    },
+    {
+      "utc_end": "2024-01-07T17:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -1.823712895479618,
+      "common_cells_difference_mm": -1.82370960051589,
+      "conservative_regrid_difference_mm": -1.823712895479618
+    },
+    {
+      "utc_end": "2024-01-07T18:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": -0.6428593955161925,
+      "common_cells_difference_mm": -0.6428582006432324,
+      "conservative_regrid_difference_mm": -0.6428593955161925
+    },
+    {
+      "utc_end": "2024-01-07T19:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2024-01-07T20:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2024-01-07T21:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2024-01-07T22:00:00Z",
+      "phase": "SNOW",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2024-01-07T23:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2024-02-01T00:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2024-02-01T01:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2024-02-01T02:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2024-02-01T03:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2024-02-01T04:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2024-02-01T05:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2024-02-01T06:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2024-02-01T07:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2024-02-01T08:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2024-02-01T09:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2024-02-01T10:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2024-02-01T11:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2024-02-01T12:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2024-02-01T13:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2024-02-01T14:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2024-02-01T15:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2024-02-01T16:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2024-02-01T17:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.019410413746215355,
+      "common_cells_difference_mm": 0.01941041373660808,
+      "conservative_regrid_difference_mm": 0.019410832467599625
+    },
+    {
+      "utc_end": "2024-02-01T18:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2024-02-01T19:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2024-02-01T20:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2024-02-01T21:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2024-02-01T22:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    },
+    {
+      "utc_end": "2024-02-01T23:00:00Z",
+      "phase": "NO_PRECIP",
+      "basin_mean_difference_mm": 0.0,
+      "common_cells_difference_mm": 0.0,
+      "conservative_regrid_difference_mm": 0.0
+    }
+  ],
+  "limitations": [
+    "Hourly phase bootstrap is exploratory and not a formal validation gate.",
+    "2024 additions are two independent days; 2024-03-19 remains outside this 7-day set and incomplete in the wider 2024 audit.",
+    "No calibration coefficient or universal product correction is inferred."
+  ],
+  "formal_pass": false,
+  "claim_boundary": "Seven-day phase-stratified diagnostic comparison only; no external human execution and no physical precipitation truth."
+}
