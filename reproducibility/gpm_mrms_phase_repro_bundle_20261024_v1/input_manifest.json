@@ -1,0 +1,27 @@
+{
+  "schema": "NOVA_GPM_MRMS_PHASE_INPUT_MANIFEST_V1",
+  "purpose": "Fresh official acquisition contract for independent recomputation",
+  "sources": [
+    {
+      "name": "MRMS PrecipFlag official flag table",
+      "url": "https://raw.githubusercontent.com/NOAA-National-Severe-Storms-Laboratory/mrms-support/main/GRIB2_TABLES/UserTable_MRMS_PrecipFlags.csv",
+      "required_content": ["Flag", "Description", "0", "3", "-3"]
+    },
+    {
+      "name": "GPM IMERG official Earthdata search",
+      "url": "https://search.earthdata.nasa.gov/",
+      "periods": ["2024-01-07", "2024-02-01", "2025-01-11", "2025-01-18", "2025-01-20", "2025-01-31", "2025-02-06"],
+      "required_temporal_resolution": "30-minute",
+      "required_format": "HDF5"
+    },
+    {
+      "name": "MRMS official archive",
+      "url": "https://mrms.ncep.noaa.gov/",
+      "product": "MultiSensor_QPE_01H_Pass2 and PrecipFlag",
+      "required_temporal_resolution": "1-hour",
+      "required_format": "GRIB2"
+    }
+  ],
+  "required_checks": ["catalog_match", "content_structure", "time_key", "coordinate", "missing_value", "sha256"],
+  "formal_pass": false
+}

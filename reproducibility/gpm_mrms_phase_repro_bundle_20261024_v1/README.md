@@ -9,6 +9,8 @@ This bundle contains the updated diagnostic integration for the seven-day GPM–
 - `gpm_mrms_seven_day_phase_bootstrap_20261024_v3.json`: seven-day hourly phase-stratified bootstrap.
 - `gpm_mrms_seven_day_phase_dayblock_bootstrap_20261024.json`: day-block bootstrap and LODO audit.
 - `nova_gpm_mrms_integrated_status_ledger_20261024.json`: evidence and claim-status ledger.
+- `input_manifest.json`: fresh official-acquisition contract.
+- `verify_bundle.py`: fail-closed evidence verifier.
 
 ## Reproduction boundary
 
@@ -23,3 +25,5 @@ The 2024 phase assignment uses the official flag table and the dominant class am
 3. Join hourly GPM–MRMS rows by exact UTC hour.
 4. Recompute hourly phase summaries and day-block bootstrap with the declared seed and 10,000 replicates.
 5. Confirm that no claim is promoted beyond the statuses in the integrated ledger.
+
+Run `python3 verify_bundle.py` for the local evidence gate. This verifies the included evidence package; it does not download or recompute raw GPM/MRMS data.
