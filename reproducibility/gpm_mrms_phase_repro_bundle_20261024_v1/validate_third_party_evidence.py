@@ -15,6 +15,8 @@ except Exception as exc:
     print(json.dumps({"status": "FAIL_CLOSED_INVALID_JSON", "error": str(exc)}))
     raise SystemExit(3)
 missing = [key for key in REQUIRED if not record.get(key)]
+if "<" in json.dumps(record, ensure_ascii=False) or ">" in json.dumps(record, ensure_ascii=False):
+    missing.append("unreplaced_template_placeholders")
 if missing:
     print(json.dumps({"status": "FAIL_CLOSED_REQUIRED_EVIDENCE_MISSING", "missing": missing}, indent=2))
     raise SystemExit(4)

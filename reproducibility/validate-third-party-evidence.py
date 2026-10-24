@@ -14,6 +14,9 @@ except Exception as e:
     print(json.dumps({"status":"FAIL_CLOSED_INVALID_JSON", "error":str(e)}))
     raise SystemExit(3)
 missing = [k for k in required if not d.get(k)]
+serialized = json.dumps(d, ensure_ascii=False)
+if "<" in serialized or ">" in serialized:
+    missing.append("unreplaced_template_placeholders")
 if missing:
     print(json.dumps({"status":"FAIL_CLOSED_REQUIRED_EVIDENCE_MISSING", "missing":missing}, indent=2))
     raise SystemExit(4)
