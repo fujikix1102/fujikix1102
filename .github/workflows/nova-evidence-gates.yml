@@ -43,6 +43,22 @@ jobs:
           rc=$?
           test "$rc" -eq 4
 
+      - name: Verify published Core acceptance evidence
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          root = Path('reproducibility')
+          matrix = json.loads((root / 'nova_core_acceptance_matrix_20261024.json').read_text())
+          isolated = json.loads((root / 'nova_isolated_acceptance_replay_20261024.json').read_text())
+          fault = json.loads((root / 'nova_isolated_fault_replay_20261024.json').read_text())
+          assert matrix['all_local_gates_pass'] is True
+          assert isolated['corpus_status'] == 'PASS' and isolated['passed'] == isolated['case_count']
+          assert fault['status'] == 'PASS' and fault['passed'] == fault['case_count']
+          assert matrix['external_verified'] is False
+          assert matrix['formal_pass'] is False
+          PY
+
       - name: Assert formal pass remains false in public ledgers
         run: |
           python3 - <<'PY'
