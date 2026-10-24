@@ -1,0 +1,11 @@
+{
+  "schema": "NOVA_ISOLATED_ACCEPTANCE_REPLAY_V1",
+  "environment": "fresh-temporary-directory",
+  "source_cache_used": false,
+  "network_used": false,
+  "corpus_status": "PASS",
+  "passed": 7,
+  "case_count": 7,
+  "formal_pass": false,
+  "artifact_sha256": "64b212bc09e274ede1c55e570004900c041fd8a54072cc8ef632c69f2e511ca2"
+}

@@ -1,0 +1,11 @@
+{
+  "schema": "NOVA_ISOLATED_FAULT_REPLAY_V1",
+  "environment": "fresh-temporary-directory",
+  "source_cache_used": false,
+  "network_used": false,
+  "status": "PASS",
+  "passed": 3,
+  "case_count": 3,
+  "formal_pass": false,
+  "artifact_sha256": "14fff133eac6b75cff691cd8803a19b2429a95c4a5f1e2f4352efeac0698e9c5"
+}

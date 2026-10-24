@@ -1,0 +1,76 @@
+{
+  "schema": "NOVA_CORE_ACCEPTANCE_MATRIX_V1",
+  "gates": [
+    {
+      "gate": "unit_tests",
+      "status": "PASS",
+      "numerator": 26,
+      "denominator": 26,
+      "source": "pytest/unittest execution"
+    },
+    {
+      "gate": "blind_acquisition_corpus",
+      "status": "PASS",
+      "numerator": 7,
+      "denominator": 7,
+      "source_sha256": "4b252b54bc796e23e6411e9bd4acdc79cdc22942431d01ee48b497e8741246cd"
+    },
+    {
+      "gate": "fault_injection_recovery",
+      "status": "PASS",
+      "numerator": 3,
+      "denominator": 3,
+      "source_sha256": "71763ea127c0d89d2c91f2579d8226513c1c3817c8eee98413487fedd896c7ae"
+    },
+    {
+      "gate": "isolated_acquisition_replay",
+      "status": "PASS",
+      "numerator": 7,
+      "denominator": 7,
+      "source_sha256": "01b11e9fbf64b157218e5c6308b46d9fa2a0d828e0136324d689937848433b10"
+    },
+    {
+      "gate": "isolated_fault_replay",
+      "status": "PASS",
+      "numerator": 3,
+      "denominator": 3,
+      "source_sha256": "2890df472472f702727f747a6ed681e27169f6be92355a5bd0425a62866499e8"
+    },
+    {
+      "gate": "metric_denominators",
+      "status": "PASS",
+      "source_sha256": "e9306645a411b5c77703efce4f6ccfcf1bb1f15a74d97b9f074ee00130b05171",
+      "metrics": {
+        "valid_decision_rate": {
+          "numerator": 7,
+          "denominator": 7,
+          "value": 1.0
+        },
+        "valid_auto_completion_rate": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "false_success_rate": {
+          "numerator": 0,
+          "denominator": 5,
+          "value": 0.0
+        },
+        "unnecessary_stop_rate": {
+          "numerator": 0,
+          "denominator": 2,
+          "value": 0.0
+        },
+        "human_intervention_count": {
+          "value": 0,
+          "definition": "No human intervention during local corpus replay; authentication interventions are not tested here."
+        }
+      }
+    }
+  ],
+  "all_local_gates_pass": true,
+  "external_verified": false,
+  "human_third_party_execution": "NOT_ESTABLISHED",
+  "formal_pass": false,
+  "claim_boundary": "Local and isolated software-gate acceptance only; no external human reproduction or scientific validity claim."
+}
