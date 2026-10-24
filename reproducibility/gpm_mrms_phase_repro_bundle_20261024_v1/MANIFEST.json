@@ -8,6 +8,7 @@
     "README.md",
     "verify_bundle.py",
     "input_manifest.json",
+    "verifier_fault_injection_20261024.json",
     "mrms_precipflag_official_parameter_table_20261024.json",
     "gpm_mrms_2024_phase_join_exploratory_20261024.json",
     "gpm_mrms_2024_phase_join_exploratory_20261024.csv",

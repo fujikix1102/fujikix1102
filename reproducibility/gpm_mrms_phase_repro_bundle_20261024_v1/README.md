@@ -11,6 +11,7 @@ This bundle contains the updated diagnostic integration for the seven-day GPM–
 - `nova_gpm_mrms_integrated_status_ledger_20261024.json`: evidence and claim-status ledger.
 - `input_manifest.json`: fresh official-acquisition contract.
 - `verify_bundle.py`: fail-closed evidence verifier.
+- `verifier_fault_injection_20261024.json`: negative tests for fail-closed behavior.
 
 ## Reproduction boundary
 

@@ -1,0 +1,9 @@
+{
+  "schema": "NOVA_GPM_MRMS_BUNDLE_VERIFIER_FAULT_INJECTION_V1",
+  "tests": [
+    {"fault": "formal_pass=true", "expected": "FAIL_CLOSED", "observed_exit_code": 3, "status": "PASS"},
+    {"fault": "input_manifest.json missing", "expected": "FAIL_CLOSED", "observed_exit_code": 2, "status": "PASS"}
+  ],
+  "original_bundle_modified_during_test": false,
+  "formal_pass": false
+}
