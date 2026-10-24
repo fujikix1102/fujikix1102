@@ -11,6 +11,7 @@ This bundle contains the updated diagnostic integration for the seven-day GPM–
 - `nova_gpm_mrms_integrated_status_ledger_20261024.json`: evidence and claim-status ledger.
 - `input_manifest.json`: fresh official-acquisition contract.
 - `verify_bundle.py`: fail-closed evidence verifier.
+- `validate_third_party_evidence.py`: fail-closed validator for a human third-party execution evidence record.
 - `verifier_fault_injection_20261024.json`: negative tests for fail-closed behavior.
 
 ## Reproduction boundary
@@ -28,3 +29,17 @@ The 2024 phase assignment uses the official flag table and the dominant class am
 5. Confirm that no claim is promoted beyond the statuses in the integrated ledger.
 
 Run `python3 verify_bundle.py` for the local evidence gate. This verifies the included evidence package; it does not download or recompute raw GPM/MRMS data.
+
+## Third-party evidence gate
+
+After an independent human rerun, submit one JSON record containing `executor`,
+`environment`, `execution_log`, `input_sha256`, `runner_sha256`, and
+`result_sha256`, plus `human_third_party_execution` set to
+`CONFIRMED_BY_HUMAN_EVIDENCE`. Validate it with:
+
+```text
+python3 validate_third_party_evidence.py evidence.json
+```
+
+The validator fails closed when required evidence is missing, human execution
+is not explicitly confirmed, or `formal_pass` is prematurely set to `true`.

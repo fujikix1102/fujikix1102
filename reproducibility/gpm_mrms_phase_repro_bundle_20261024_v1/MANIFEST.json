@@ -7,6 +7,7 @@
   "files": [
     "README.md",
     "verify_bundle.py",
+    "validate_third_party_evidence.py",
     "input_manifest.json",
     "verifier_fault_injection_20261024.json",
     "mrms_precipflag_official_parameter_table_20261024.json",
@@ -16,5 +17,6 @@
     "gpm_mrms_seven_day_phase_dayblock_bootstrap_20261024.json",
     "nova_gpm_mrms_integrated_status_ledger_20261024.json"
   ],
-  "excluded": "Raw GPM/MRMS archives are referenced by source ledgers and are not duplicated in this lightweight bundle."
+  "excluded": "Raw GPM/MRMS archives are referenced by source ledgers and are not duplicated in this lightweight bundle.",
+  "third_party_gate": "A submitted evidence record must pass validate_third_party_evidence.py; automated replay is not human third-party evidence."
 }
