@@ -1,0 +1,44 @@
+name: NOVA evidence gates
+
+on:
+  push:
+    paths:
+      - 'reproducibility/gpm_mrms_phase_repro_bundle_20261024_v1/**'
+      - 'reproducibility/nova_scientific_validity_bms_cmp22_20261023_repro_bundle_v11_gate.tar.gz'
+      - 'reproducibility/validate-third-party-evidence.py'
+      - '.github/workflows/nova-evidence-gates.yml'
+  pull_request:
+    paths:
+      - 'reproducibility/**'
+      - '.github/workflows/nova-evidence-gates.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  fail-closed-verification:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify GPM evidence bundle
+        run: python3 reproducibility/gpm_mrms_phase_repro_bundle_20261024_v1/verify_bundle.py
+      - name: Verify third-party validator rejects incomplete evidence
+        run: |
+          set +e
+          python3 reproducibility/validate-third-party-evidence.py \
+            reproducibility/gpm_mrms_phase_repro_bundle_20261024_v1/verifier_fault_injection_20261024.json
+          rc=$?
+          test "$rc" -eq 4
+      - name: Assert formal pass remains false in public ledgers
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          paths = [
+              Path('reproducibility/gpm_mrms_phase_repro_bundle_20261024_v1/MANIFEST.json'),
+              Path('reproducibility/gpm_mrms_phase_repro_bundle_20261024_v1/nova_gpm_mrms_integrated_status_ledger_20261024.json'),
+          ]
+          for path in paths:
+              data = json.loads(path.read_text())
+              assert data.get('formal_pass', data.get('claim_gates', {}).get('formal_pass')) is False, path
+          PY
