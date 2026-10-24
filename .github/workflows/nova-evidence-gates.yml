@@ -29,6 +29,13 @@ jobs:
             reproducibility/gpm_mrms_phase_repro_bundle_20261024_v1/verifier_fault_injection_20261024.json
           rc=$?
           test "$rc" -eq 4
+      - name: Verify BMS public archive contains the evidence gate
+        run: |
+          test -s reproducibility/nova_scientific_validity_bms_cmp22_20261023_repro_bundle_v11_gate.tar.gz
+          tar -tzf reproducibility/nova_scientific_validity_bms_cmp22_20261023_repro_bundle_v11_gate.tar.gz | grep -q 'validate_third_party_evidence.py'
+          tar -xOf reproducibility/nova_scientific_validity_bms_cmp22_20261023_repro_bundle_v11_gate.tar.gz \
+            nova_scientific_validity_bms_cmp22_20261023_repro_bundle_v11/manifest.json | grep -q '"formal_pass": false'
+
       - name: Assert formal pass remains false in public ledgers
         run: |
           python3 - <<'PY'
